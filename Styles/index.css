@@ -1,0 +1,8 @@
+.logo {
+  margin: 5px;
+  padding-left: 10px;
+}
+.header {
+  display: inline-block;
+  background-color: darkgray;
+}
