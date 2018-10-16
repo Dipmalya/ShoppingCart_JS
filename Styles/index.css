@@ -31,6 +31,7 @@ html {
   font-size: 18px;
   line-height: 15px;
   border-radius: 4px;
+  text-decoration: none;
 }
 
 .header a.logo {
@@ -39,8 +40,9 @@ html {
 }
 
 .header a:hover {
-  background-color: #ddd;
+  background-color: #8d8d8d;
   color: black;
+  text-decoration: none;
 }
 
 .header a.active {
