@@ -1,3 +1,8 @@
+/*
+    @author : Dipmalya Sen
+    @desc : A function that checks the login credentials of the user and if it is right
+            then redirects the useer to the shopping page else displays the error message..
+*/
 var validateUser = function() {
   var flag = 0;
   var uname = document.getElementById("userName").value;
