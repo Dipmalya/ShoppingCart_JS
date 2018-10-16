@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../Styles/index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="../Script/index.js" type="text/javascript"></script>
     <link rel="shortcut icon" href="../Image/logo.jpg">
     <title>SenStore | Home</title>
@@ -41,15 +42,18 @@
         <!-- Login-Form -->
 
         <div class="login">
-            <form action="./shop.html">
+            <form onsubmit="return false">
                 <p class="h4 mb-4 sign-in">Sign in</p>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Email"><br />
+                    <input type="text" class="form-control" placeholder="Email" id="userName"><br />
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Password"><br />
+                    <input type="password" class="form-control" placeholder="Password" id="password"><br />
                 </div>
-                <input type="submit" class="btn btn-primary" value="Login">
+                <input type="submit" class="btn btn-primary" value="Login" onclick="validateUser()">
+                <div class="form-group">
+                    <p id="userAuth"></p>
+                </div>
             </form>
         </div>
 
