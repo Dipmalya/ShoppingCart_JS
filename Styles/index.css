@@ -124,3 +124,7 @@ html {
 .sign-in {
   margin-left: 42.5%;
 }
+#userAuth {
+  color: red;
+  margin-left: 20%;
+}

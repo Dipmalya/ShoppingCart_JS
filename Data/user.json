@@ -1,10 +1,14 @@
 [
-	{
-		"email":"dipmalyasen@gmail.com",
-		"password":"abcd1234"
-	},
-	{
-		"email":"dipmalyasen@yahoo.in",
-		"password":"abcd1234"
-	}
+  {
+    "email": "dipmalyasen@gmail.com",
+    "password": "abcd1234"
+  },
+  {
+    "email": "dipmalyasen@yahoo.in",
+    "password": "abcd1234"
+  },
+  {
+    "email": "admin",
+    "password": "12345"
+  }
 ]

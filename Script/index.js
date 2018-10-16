@@ -6,7 +6,7 @@ var validateUser = function() {
     for (var i = 0; i < user.length; i++) {
       if (user[i].email == uname && user[i].password == pwd) {
         flag = 1;
-        window.location = "exam.html";
+        window.location = "./shop.html";
       }
     }
     if (flag == 0)
