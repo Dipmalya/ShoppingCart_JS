@@ -110,3 +110,17 @@ html {
   font-size: 0;
   animation: 20s slider infinite;
 }
+.login {
+  margin: 7% 60%;
+  position: absolute;
+  width: 30%;
+  padding: 20px;
+  background-color: #e0e0e0;
+}
+.btn {
+  width: 75%;
+  margin-left: 12.5%;
+}
+.sign-in {
+  margin-left: 42.5%;
+}
