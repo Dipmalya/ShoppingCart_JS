@@ -52,3 +52,53 @@ html {
   color: #efefef;
   cursor: pointer;
 }
+.drop-electronics,
+.drop-fashion,
+.drop-watch,
+.drop-sports {
+  list-style-type: none;
+  position: absolute;
+  background-color: #757575;
+  color: #e0e0e0;
+  width: 23.8%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 12px;
+  display: none;
+}
+.drop-electronics > li,
+.drop-fashion > li,
+.drop-watch > li,
+.drop-sprots > li {
+  text-align: left;
+  padding-left: 20%;
+  margin-top: 5px;
+}
+.drop-electronics > li:hover,
+.drop-fashion > li:hover,
+.drop-watch > li:hover,
+.drop-sports > li:hover {
+  color: #efefef;
+  cursor: pointer;
+}
+.electronics:hover .drop-electronics,
+.fashion:hover .drop-fashion,
+.watch:hover .drop-watch,
+.sports:hover .drop-sports {
+  display: block;
+}
+#mobile:hover,
+#camera:hover,
+#laptop:hover,
+#headphone:hover,
+#television:hover,
+#men:hover,
+#women:hover,
+#men-watch:hover,
+#women-watch:hover,
+#smartwatch:hover #cricket:hover,
+#football:hover,
+#racquet:hover,
+#accessories:hover {
+  color: #212121;
+}
