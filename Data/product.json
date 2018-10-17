@@ -121,5 +121,13 @@
   {
     "category": "others",
     "sub_category": "dasdasd"
+  },
+  {
+    "category": "electronics",
+    "sub_category": "laptop"
+  },
+  {
+    "category": "electronics",
+    "sub_category": "camera"
   }
 ]

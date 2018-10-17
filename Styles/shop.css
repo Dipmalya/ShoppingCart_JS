@@ -93,20 +93,7 @@ html {
   display: block;
   z-index: 1;
 }
-#mobile:hover,
-#camera:hover,
-#laptop:hover,
-#headphone:hover,
-#television:hover,
-#men:hover,
-#women:hover,
-#men-watch:hover,
-#women-watch:hover,
-#smartwatch:hover,
-#cricket:hover,
-#football:hover,
-#racquet:hover,
-#accessories:hover {
+#navTabs > li > ul > li:hover {
   color: #212121;
 }
 .container {
