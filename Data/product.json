@@ -115,19 +115,140 @@
     "size": ["S", "M", "L", "XL"]
   },
   {
+    "id": 8,
     "category": "home",
-    "sub_category": "abc"
+    "sub_category": "furniture",
+    "name": "RoyalOak Beat Metal Coffee Table",
+    "price": "4699",
+    "Material": "Carbon Steel Metal",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jgv5jm80/coffee-table/5/g/8/carbon-steel-ct91-royaloak-brown-original-imaf48ssqugtzkey.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jgv5jm80/coffee-table/5/g/8/carbon-steel-ct91-royaloak-brown-original-imaf48sst3nerauc.jpeg?q=70"
+    ]
   },
   {
+    "id": 9,
     "category": "others",
-    "sub_category": "dasdasd"
+    "sub_category": "sports",
+    "sports": "cricket",
+    "name": "Kookaburra Kahuna Prodigy 100 Full Size Cricket Bat",
+    "price": "690",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jj7givk0/bat/a/h/q/1200-bat-short-handle-3333-kookaburra-original-imaf3ehdtppgxx7r.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jj7givk0/bat/a/h/q/1200-bat-short-handle-3333-kookaburra-original-imaf3ehd2mkqf7ky.jpeg?q=70"
+    ],
+    "Material": "Kashmir willow",
+    "Ideal For": "Men (above 12)"
   },
   {
+    "id": 10,
     "category": "electronics",
-    "sub_category": "laptop"
+    "sub_category": "laptop",
+    "brand": "Dell",
+    "name": "Dell Vostro 14 3478",
+    "price": "40990",
+    "ram": "8GB",
+    "storage": "1TB HDD",
+    "processor": "i5",
+    "os": "Windows 10",
+    "display": "14 inch 1366*768 HD LED",
+    "soc": "Quad core 8th gen",
+    "usb": "1 x USB 2.0, 2 x USB 3.0",
+    "dimension": "345 x 243 x 23.35 mm",
+    "weight": "1.76 kg",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jmwch3k0/computer/r/s/u/dell-na-laptop-original-imaf9ph4fbjfhzey.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jmwch3k0/computer/r/s/u/dell-na-laptop-original-imaf9ph4fdwjfzqr.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jmwch3k0/computer/r/s/u/dell-na-laptop-original-imaf9ph4qrz6vz9m.jpeg?q=70"
+    ]
   },
   {
+    "id": 11,
     "category": "electronics",
-    "sub_category": "camera"
+    "sub_category": "laptop",
+    "brand": "HP",
+    "name": "HP 15q-ds0017TU Laptop",
+    "price": "33990",
+    "ram": "8GB",
+    "storage": "1TB HDD",
+    "processor": "i3",
+    "os": "DOS",
+    "display": "15.6 inch 1366*768 HD LED",
+    "soc": "Dual core 7th gen",
+    "usb": "1 x USB 2.0, 2 x USB 3.1",
+    "dimension": "376 x 246 x 22.5 mm",
+    "weight": "1.77 kg",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jmz7csw0/computer/v/u/q/hp-na-laptop-original-imaf9zypsgmfz4zk.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jmz7csw0/computer/v/u/q/hp-na-laptop-original-imaf9zypsheuqbbv.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jmz7csw0/computer/v/u/q/hp-na-laptop-original-imaf9zyphdjtyumz.jpeg?q=70"
+    ]
+  },
+  {
+    "id": 12,
+    "category": "electronics",
+    "sub_category": "laptop",
+    "brand": "Dell",
+    "name": "Dell Inspiron 3467",
+    "price": "27990",
+    "ram": "4GB",
+    "storage": "1TB HDD",
+    "processor": "i3",
+    "os": "Ubuntu",
+    "display": "14 inch 1366*768 HD LED",
+    "soc": "Quad core 6th gen",
+    "usb": "1 x USB 2.0, 2 x USB 3.0",
+    "dimension": "345 x 243 x 23.35 mm",
+    "weight": "1.95 kg",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jg6v24w0/computer/r/v/b/dell-na-laptop-original-imaf4hmbhuacfw9n.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jg6v24w0/computer/g/z/c/dell-na-laptop-original-imaf4hmb8hyyh4ry.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jg6v24w0/computer/r/v/b/dell-na-laptop-original-imaf4hmbfyffqfnc.jpeg?q=70"
+    ]
+  },
+  {
+    "id": 13,
+    "category": "electronics",
+    "sub_category": "laptop",
+    "brand": "Dell",
+    "name": "Dell Inspiron 5575 Ryzen",
+    "price": "48490",
+    "ram": "8GB",
+    "storage": "1TB HDD",
+    "processor": "AMD",
+    "os": "Windows 10",
+    "display": "14 inch 1366*768 HD LED",
+    "soc": "Ryzen 5 Quad core 64-bit",
+    "usb": "1 x USB 2.0, 2 x USB 3.1",
+    "dimension": "380 x 258 x 22.7 mm",
+    "weight": "2.22 kg",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/m/a/w/dell-na-laptop-original-imaf9hu4q8kmrqy8.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/m/a/w/dell-na-laptop-original-imaf9hu4h3y65d8a.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/m/a/w/dell-na-laptop-original-imaf9hu4vjg9fctn.jpeg?q=70"
+    ]
+  },
+  {
+    "id": 14,
+    "category": "electronics",
+    "sub_category": "laptop",
+    "brand": "Dell",
+    "name": "Dell Inspiron 7567 Gaming Laptop",
+    "price": "79990",
+    "ram": "8GB",
+    "storage": "1TB HDD",
+    "processor": "i7",
+    "os": "Windows 10",
+    "display": "15.6 inch 192*1080 IPS Anti-glare LED",
+    "soc": "2.8GHz quad core 7th gen",
+    "gpu": "NVIDIA Geforce GTX 1050Ti",
+    "usb": "3 x USB 3.0",
+    "dimension": "384.9 x 274.73 x 25.44 mm",
+    "weight": "2.62 kg",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jmwch3k0/computer/f/v/p/dell-na-gaming-laptop-original-imaf9phafdmhc9qj.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jmwch3k0/computer/f/v/p/dell-na-gaming-laptop-original-imaf9phabvd9sgye.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jmwch3k0/computer/f/v/p/dell-na-gaming-laptop-original-imaf9pha7squb4en.jpeg?q=70"
+    ]
   }
 ]
