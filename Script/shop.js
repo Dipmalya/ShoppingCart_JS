@@ -1,10 +1,16 @@
 var allProducts = [];
 var categories = new Set();
 var sub_categories = new Map();
+var currentUser = localStorage.getItem("present-user");
 
 var bringProducts = function() {
   $.get("../Data/product.json", function(product, status) {
     allProducts = product;
+
+    document.getElementById("user-name").innerHTML = currentUser.substr(
+      0,
+      currentUser.indexOf(" ")
+    );
     selectMobile();
   });
 };

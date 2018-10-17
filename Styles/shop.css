@@ -3,12 +3,21 @@ html {
   margin: 0px;
 }
 #wishlist,
-#cart {
+#cart,
+#logout {
   font-size: 22px;
   margin-left: 5px;
   margin-right: 5px;
   padding: 0px;
   color: #37474f;
+}
+#user {
+  font-size: 26px;
+  color: #37474f;
+}
+#user-name {
+  margin-left: 2px;
+  padding-bottom: 2px;
 }
 .icons > a {
   margin-left: 15px;
@@ -95,12 +104,4 @@ html {
 }
 #navTabs > li > ul > li:hover {
   color: #212121;
-}
-.container {
-  margin: 0px;
-}
-.card {
-  margin: 2%;
-  margin-left: 0%;
-  position: static;
 }
