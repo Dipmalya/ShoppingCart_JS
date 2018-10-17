@@ -86,6 +86,7 @@ html {
 .watch:hover .drop-watch,
 .sports:hover .drop-sports {
   display: block;
+  z-index: 1;
 }
 #mobile:hover,
 #camera:hover,
@@ -102,4 +103,12 @@ html {
 #racquet:hover,
 #accessories:hover {
   color: #212121;
+}
+.container {
+  margin: 0px;
+}
+.card {
+  margin: 2%;
+  margin-left: 0%;
+  position: static;
 }
