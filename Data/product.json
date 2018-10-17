@@ -1,13 +1,16 @@
 [
   {
     "id": 1,
-    "category": "Mobile",
+    "category": "electronics",
+    "sub-category": "Mobile",
     "brand": "Xiaomi",
     "name": "Redmi Note 5 Pro",
     "price": "14999",
-    "img1": "https://rukminim1.flixcart.com/image/832/832/jdkjzww0/mobile/y/q/m/redmi-note-5-pro-mzb6084in-original-imaf2g8zj6y5vkqn.jpeg?q=70",
-    "img2": "https://rukminim1.flixcart.com/image/832/832/jdkjzww0/mobile/x/f/y/redmi-note-5-pro-mzb6080in-original-imaf2g8zxrpfrt6v.jpeg?q=70",
-    "img3": "https://rukminim1.flixcart.com/image/832/832/jdkjzww0/mobile/y/q/m/redmi-note-5-pro-mzb6084in-original-imaf2g8zeh2hgaud.jpeg?q=70",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jdkjzww0/mobile/y/q/m/redmi-note-5-pro-mzb6084in-original-imaf2g8zj6y5vkqn.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jdkjzww0/mobile/x/f/y/redmi-note-5-pro-mzb6080in-original-imaf2g8zxrpfrt6v.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jdkjzww0/mobile/y/q/m/redmi-note-5-pro-mzb6084in-original-imaf2g8zeh2hgaud.jpeg?q=70"
+    ],
     "ram": "4GB",
     "storage": "64GB",
     "rear-camera": "12MP + 5MP",
@@ -18,13 +21,16 @@
   },
   {
     "id": 2,
-    "category": "Mobile",
+    "category": "electronics",
+    "sub-category": "Mobile",
     "brand": "Samsung",
     "name": "Samsung Galaxy A7",
     "price": "23990",
-    "img1": "https://rukminim1.flixcart.com/image/832/832/jmgmmq80/mobile/x/f/z/samsung-galaxy-a7-sm-a750fzbhins-original-imaf9d35cv5anzqw.jpeg?q=70",
-    "img2": "https://rukminim1.flixcart.com/image/832/832/jmgmmq80/mobile/x/f/z/samsung-galaxy-a7-sm-a750fzbhins-original-imaf9d35gwut9uh5.jpeg?q=70",
-    "img3": "https://rukminim1.flixcart.com/image/832/832/jmgmmq80/mobile/x/f/z/samsung-galaxy-a7-sm-a750fzbhins-original-imaf9d35gkhy6dmb.jpeg?q=70",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jmgmmq80/mobile/x/f/z/samsung-galaxy-a7-sm-a750fzbhins-original-imaf9d35cv5anzqw.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jmgmmq80/mobile/x/f/z/samsung-galaxy-a7-sm-a750fzbhins-original-imaf9d35gwut9uh5.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jmgmmq80/mobile/x/f/z/samsung-galaxy-a7-sm-a750fzbhins-original-imaf9d35gkhy6dmb.jpeg?q=70"
+    ],
     "ram": "4GB",
     "storage": "64GB",
     "rear-camera": "24MP + 5MP + 8MP",
@@ -35,13 +41,16 @@
   },
   {
     "id": 3,
-    "category": "Mobile",
+    "category": "electronics",
+    "sub-category": "Mobile",
     "brand": "OnePlus",
     "name": "OnePlus 5",
     "price": "35999",
-    "img1": "https://rukminim1.flixcart.com/image/832/832/jeykeq80/mobile/n/q/v/oneplus-oneplus-5-a5000-original-imaf3jfkg8jkhdfh.jpeg?q=70",
-    "img2": "https://rukminim1.flixcart.com/image/832/832/jcktzm80/mobile/n/q/v/oneplus-oneplus-5-a5000-original-imaffzjzexrrgfgg.jpeg?q=70",
-    "img3": "https://rukminim1.flixcart.com/image/832/832/jcnovbk0/mobile/n/q/v/oneplus-oneplus-5-a5000-original-imaffzjzbqydfjhh.jpeg?q=70",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jeykeq80/mobile/n/q/v/oneplus-oneplus-5-a5000-original-imaf3jfkg8jkhdfh.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jcktzm80/mobile/n/q/v/oneplus-oneplus-5-a5000-original-imaffzjzexrrgfgg.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jcnovbk0/mobile/n/q/v/oneplus-oneplus-5-a5000-original-imaffzjzbqydfjhh.jpeg?q=70"
+    ],
     "ram": "8GB",
     "storage": "128GB",
     "rear-camera": "16MP + 20MP",
@@ -49,5 +58,60 @@
     "display": "13.97 cm (5.5 inch) Full HD Display",
     "battery": "3300 mAh Lithium-ion Battery",
     "soc": "Qualcomm Snapdragon 835 Processor"
+  },
+  {
+    "id": 4,
+    "category": "fashion",
+    "sub-category": "Men",
+    "type": "T-Shirt",
+    "name": "Maniac checkered Men's T-Shirt",
+    "price": "449",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jdyuefk0/t-shirt/j/6/h/s-mens-ss18-rn-fs-checked-tshirt-navy-maniac-original-imaf2r9whsgg7bxg.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jdyuefk0/t-shirt/j/6/h/xl-mens-ss18-rn-fs-checked-tshirt-navy-maniac-original-imaf2r9hkq9wq85h.jpeg?q=70"
+    ],
+    "feature": "Full sleeve round neck",
+    "size": ["S", "M", "L", "XL", "XXL"]
+  },
+  {
+    "id": 5,
+    "category": "fashion",
+    "sub-category": "Men",
+    "type": "Shirt",
+    "name": "Highlander Men Checkered Shirt",
+    "price": "649",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jhjg13k0/shirt/s/e/f/m-hlsh009231-navy-blue-red-highlander-original-imaf5g64jtj3gtuf.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jhjg13k0/shirt/s/e/f/m-hlsh009231-navy-blue-red-highlander-original-imaf5g64dddwtsgt.jpeg?q=70"
+    ],
+    "feature": "Full sleeve cotton casual",
+    "size": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": 6,
+    "category": "fashion",
+    "sub-category": "Women",
+    "type": "Saree",
+    "name": "Saara Self Design Fashion Poly Silk Saree",
+    "price": "699",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jhmawsw0/sari/v/9/d/free-618s504-saara-original-imaf4yypb2hkvjwv.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jhmawsw0/sari/v/9/d/free-618s504-saara-original-imaf4yypswdzczz7.jpeg?q=70"
+    ],
+    "feature": "Poly Silk , Blouse Fabric : Poly Silk"
+  },
+  {
+    "id": 7,
+    "category": "fashion",
+    "sub-category": "Women",
+    "type": "Casual Top",
+    "name": "Rare Casual Bell Sleeve Solid Women's Orange Top",
+    "price": "517",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/j6zcwi80/top/y/s/x/m-ep2050a-rare-original-imaexb33qwvfjk6g.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/j6zcwi80/top/s/d/m/s-ep2050a-rare-original-imaexb3372ydfyvw.jpeg?q=70"
+    ],
+    "feature": "High Neck Full sleeve : Polyester",
+    "size": ["S", "M", "L", "XL"]
   }
 ]
