@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "category": "Mobile",
+    "brand": "Xiaomi",
+    "name": "Redmi Note 5 Pro",
+    "price": "14999",
+    "img1": "https://rukminim1.flixcart.com/image/832/832/jdkjzww0/mobile/y/q/m/redmi-note-5-pro-mzb6084in-original-imaf2g8zj6y5vkqn.jpeg?q=70",
+    "img2": "https://rukminim1.flixcart.com/image/832/832/jdkjzww0/mobile/x/f/y/redmi-note-5-pro-mzb6080in-original-imaf2g8zxrpfrt6v.jpeg?q=70",
+    "img3": "https://rukminim1.flixcart.com/image/832/832/jdkjzww0/mobile/y/q/m/redmi-note-5-pro-mzb6084in-original-imaf2g8zeh2hgaud.jpeg?q=70",
+    "ram": "4GB",
+    "storage": "64GB",
+    "rear-camera": "12MP + 5MP",
+    "front-camera": "20MP",
+    "display": "15.21 cm (5.99 inch) Full HD+ Display",
+    "battery": "4000 mAh Li Polymer Battery",
+    "soc": "Qualcomm Snapdragon 636 Processor"
+  },
+  {
+    "id": 2,
+    "category": "Mobile",
+    "brand": "Samsung",
+    "name": "Samsung Galaxy A7",
+    "price": "23990",
+    "img1": "https://rukminim1.flixcart.com/image/832/832/jmgmmq80/mobile/x/f/z/samsung-galaxy-a7-sm-a750fzbhins-original-imaf9d35cv5anzqw.jpeg?q=70",
+    "img2": "https://rukminim1.flixcart.com/image/832/832/jmgmmq80/mobile/x/f/z/samsung-galaxy-a7-sm-a750fzbhins-original-imaf9d35gwut9uh5.jpeg?q=70",
+    "img3": "https://rukminim1.flixcart.com/image/832/832/jmgmmq80/mobile/x/f/z/samsung-galaxy-a7-sm-a750fzbhins-original-imaf9d35gkhy6dmb.jpeg?q=70",
+    "ram": "4GB",
+    "storage": "64GB",
+    "rear-camera": "24MP + 5MP + 8MP",
+    "front-camera": "24MP",
+    "display": "15.24 cm (6.0 inch) FHD+ Display",
+    "battery": "3300 mAh Lithium-ion Battery",
+    "soc": "Samsung Exynos Octa Core Processor (2.2 GHz) Processor"
+  },
+  {
+    "id": 3,
+    "category": "Mobile",
+    "brand": "OnePlus",
+    "name": "OnePlus 5",
+    "price": "35999",
+    "img1": "https://rukminim1.flixcart.com/image/832/832/jeykeq80/mobile/n/q/v/oneplus-oneplus-5-a5000-original-imaf3jfkg8jkhdfh.jpeg?q=70",
+    "img2": "https://rukminim1.flixcart.com/image/832/832/jcktzm80/mobile/n/q/v/oneplus-oneplus-5-a5000-original-imaffzjzexrrgfgg.jpeg?q=70",
+    "img3": "https://rukminim1.flixcart.com/image/832/832/jcnovbk0/mobile/n/q/v/oneplus-oneplus-5-a5000-original-imaffzjzbqydfjhh.jpeg?q=70",
+    "ram": "8GB",
+    "storage": "128GB",
+    "rear-camera": "16MP + 20MP",
+    "front-camera": "16MP",
+    "display": "13.97 cm (5.5 inch) Full HD Display",
+    "battery": "3300 mAh Lithium-ion Battery",
+    "soc": "Qualcomm Snapdragon 835 Processor"
+  }
+]
