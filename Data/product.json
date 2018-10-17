@@ -250,5 +250,49 @@
       "https://rukminim1.flixcart.com/image/832/832/jmwch3k0/computer/f/v/p/dell-na-gaming-laptop-original-imaf9phabvd9sgye.jpeg?q=70",
       "https://rukminim1.flixcart.com/image/832/832/jmwch3k0/computer/f/v/p/dell-na-gaming-laptop-original-imaf9pha7squb4en.jpeg?q=70"
     ]
+  },
+  {
+    "id": 15,
+    "category": "electronics",
+    "sub_category": "laptop",
+    "brand": "Dell",
+    "name": "Dell Inspiron 5370",
+    "price": "45990",
+    "ram": "4GB",
+    "storage": "128GB SSD",
+    "processor": "i3",
+    "os": "Windows 10",
+    "display": "13 inch 192*1080 IPS Anti-glare LED",
+    "soc": "2.7GHz Core i3",
+    "gpu": "Intel Integrated HD 620",
+    "usb": "3 x USB 3.1",
+    "dimension": "323.9 x 219.9 x 15.81 mm",
+    "weight": "1.4 kg",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jiw10280/computer/c/n/g/dell-na-thin-and-light-laptop-original-imaf6hfavqtykmrg.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jiw10280/computer/c/n/g/dell-na-thin-and-light-laptop-original-imaf6hfayr9zxjwx.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jiw10280/computer/c/n/g/dell-na-thin-and-light-laptop-original-imaf6hfahvxzdwhq.jpeg?q=70"
+    ]
+  },
+  {
+    "id": 16,
+    "category": "electronics",
+    "sub_category": "laptop",
+    "brand": "Dell",
+    "name": "Dell Inspiron 3552",
+    "price": "20490",
+    "ram": "4GB",
+    "storage": "500GB HDD",
+    "processor": "i3",
+    "os": "Linux",
+    "display": "15.6 inch 192*1080 IPS Anti-glare LED",
+    "soc": "Celeron Dual Core",
+    "gpu": "Intel Integrated HD 620",
+    "usb": "3 x USB 3.1",
+    "dimension": "323.9 x 219.9 x 15.81 mm",
+    "weight": "1.4 kg",
+    "image": [
+      "https://rukminim1.flixcart.com/image/312/312/jiw10280/computer/s/7/x/dell-na-laptop-original-imaf6h36f8taybxa.jpeg?q=70"
+    ]
   }
 ]
