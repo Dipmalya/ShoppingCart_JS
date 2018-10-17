@@ -37,9 +37,14 @@ html {
   text-align: center;
   padding-bottom: 12px;
 }
-@media screen and (min-width: 460px) {
+@media screen and (min-width: 620px) {
   .navTabs > li {
     width: 24%;
+  }
+}
+@media screen and (max-width: 619px) {
+  .navTabs > li {
+    width: 48%;
   }
 }
 @media screen and (max-width: 460px) {
@@ -52,10 +57,10 @@ html {
   color: #efefef;
   cursor: pointer;
 }
-.drop-electronics,
-.drop-fashion,
-.drop-watch,
-.drop-sports {
+#drop-electronics,
+#drop-fashion,
+#drop-home,
+#drop-others {
   list-style-type: none;
   position: absolute;
   background-color: #757575;
@@ -66,25 +71,25 @@ html {
   margin-top: 12px;
   display: none;
 }
-.drop-electronics > li,
-.drop-fashion > li,
-.drop-watch > li,
-.drop-sprots > li {
+#drop-electronics > li,
+#drop-fashion > li,
+#drop-home > li,
+#drop-others > li {
   text-align: left;
   padding-left: 20%;
   margin-top: 5px;
 }
-.drop-electronics > li:hover,
-.drop-fashion > li:hover,
-.drop-watch > li:hover,
-.drop-sports > li:hover {
+#drop-electronics > li:hover,
+#drop-fashion > li:hover,
+#drop-home > li:hover,
+#drop-others > li:hover {
   color: #efefef;
   cursor: pointer;
 }
-.electronics:hover .drop-electronics,
-.fashion:hover .drop-fashion,
-.watch:hover .drop-watch,
-.sports:hover .drop-sports {
+.electronics:hover #drop-electronics,
+.fashion:hover #drop-fashion,
+.home:hover #drop-home,
+.others:hover #drop-others {
   display: block;
   z-index: 1;
 }

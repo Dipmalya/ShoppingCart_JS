@@ -2,7 +2,7 @@
   {
     "id": 1,
     "category": "electronics",
-    "sub-category": "Mobile",
+    "sub_category": "Mobile",
     "brand": "Xiaomi",
     "name": "Redmi Note 5 Pro",
     "price": "14999",
@@ -22,7 +22,7 @@
   {
     "id": 2,
     "category": "electronics",
-    "sub-category": "Mobile",
+    "sub_category": "Mobile",
     "brand": "Samsung",
     "name": "Samsung Galaxy A7",
     "price": "23990",
@@ -42,7 +42,7 @@
   {
     "id": 3,
     "category": "electronics",
-    "sub-category": "Mobile",
+    "sub_category": "Mobile",
     "brand": "OnePlus",
     "name": "OnePlus 5",
     "price": "35999",
@@ -62,7 +62,7 @@
   {
     "id": 4,
     "category": "fashion",
-    "sub-category": "Men",
+    "sub_category": "Men",
     "type": "T-Shirt",
     "name": "Maniac checkered Men's T-Shirt",
     "price": "449",
@@ -76,7 +76,7 @@
   {
     "id": 5,
     "category": "fashion",
-    "sub-category": "Men",
+    "sub_category": "Men",
     "type": "Shirt",
     "name": "Highlander Men Checkered Shirt",
     "price": "649",
@@ -90,7 +90,7 @@
   {
     "id": 6,
     "category": "fashion",
-    "sub-category": "Women",
+    "sub_category": "Women",
     "type": "Saree",
     "name": "Saara Self Design Fashion Poly Silk Saree",
     "price": "699",
@@ -103,7 +103,7 @@
   {
     "id": 7,
     "category": "fashion",
-    "sub-category": "Women",
+    "sub_category": "Women",
     "type": "Casual Top",
     "name": "Rare Casual Bell Sleeve Solid Women's Orange Top",
     "price": "517",
@@ -113,5 +113,13 @@
     ],
     "feature": "High Neck Full sleeve : Polyester",
     "size": ["S", "M", "L", "XL"]
+  },
+  {
+    "category": "home",
+    "sub_category": "abc"
+  },
+  {
+    "category": "others",
+    "sub_category": "dasdasd"
   }
 ]
