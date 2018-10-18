@@ -44,3 +44,9 @@ var setCategories = function() {
     }
   }
 };
+
+var displayFilter = function() {
+  if ($("#sub-panel").css("display") == "none")
+    $("#sub-panel").css("display", "block");
+  else $("#sub-panel").css("display", "none");
+};
