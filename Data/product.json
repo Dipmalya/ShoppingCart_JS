@@ -143,7 +143,7 @@
   {
     "id": 10,
     "category": "electronics",
-    "sub_category": "laptop",
+    "sub_category": "Laptop",
     "brand": "Dell",
     "name": "Dell Vostro 14 3478",
     "price": "40990",
@@ -165,7 +165,7 @@
   {
     "id": 11,
     "category": "electronics",
-    "sub_category": "laptop",
+    "sub_category": "Laptop",
     "brand": "HP",
     "name": "HP 15q-ds0017TU Laptop",
     "price": "33990",
@@ -187,7 +187,7 @@
   {
     "id": 12,
     "category": "electronics",
-    "sub_category": "laptop",
+    "sub_category": "Laptop",
     "brand": "Dell",
     "name": "Dell Inspiron 3467",
     "price": "27990",
@@ -209,7 +209,7 @@
   {
     "id": 13,
     "category": "electronics",
-    "sub_category": "laptop",
+    "sub_category": "Laptop",
     "brand": "Dell",
     "name": "Dell Inspiron 5575 Ryzen",
     "price": "48490",
@@ -231,7 +231,7 @@
   {
     "id": 14,
     "category": "electronics",
-    "sub_category": "laptop",
+    "sub_category": "Laptop",
     "brand": "Dell",
     "name": "Dell Inspiron 7567 Gaming Laptop",
     "price": "79990",
@@ -254,7 +254,7 @@
   {
     "id": 15,
     "category": "electronics",
-    "sub_category": "laptop",
+    "sub_category": "Laptop",
     "brand": "Dell",
     "name": "Dell Inspiron 5370",
     "price": "45990",
@@ -277,7 +277,7 @@
   {
     "id": 16,
     "category": "electronics",
-    "sub_category": "laptop",
+    "sub_category": "Laptop",
     "brand": "Dell",
     "name": "Dell Inspiron 3552",
     "price": "20490",

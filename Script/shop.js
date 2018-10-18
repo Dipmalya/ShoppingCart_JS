@@ -1,7 +1,7 @@
 var allProducts = []; //array stores all the data
 var categories = new Set(); //set to store the categories
 var sub_categories = new Map(); //map to map the categories with the sub-categories
-var currentUser = localStorage.getItem("present-user");   //stores the name of the user logged-in
+var currentUser = localStorage.getItem("present-user"); //stores the name of the user logged-in
 
 /*
     @author : Dipmalya Sen
@@ -20,6 +20,7 @@ var bringProducts = function() {
     );
     setCategories();
     displayItems();
+    bringItems();
   });
 };
 
@@ -59,6 +60,15 @@ var setCategories = function() {
   }
 };
 
+var bringItems = function() {
+  var current_cat = localStorage.getItem("category");
+  for (var product = 0; product < allProducts.length; product++) {
+    if (allProducts[product].sub_category != current_cat) {
+      allProducts.splice(product, 1);
+    }
+  }
+};
+
 /*
     @author : Dipmalya Sen
     @desc : This function toggles the filter menu
@@ -76,7 +86,6 @@ var displayFilter = function() {
 */
 var displayItems = function() {
   for (var product of allProducts) {
-    console.log(product);
     var item = document.createElement("div");
     item.setAttribute("id", product.id);
     item.setAttribute("class", "item");
