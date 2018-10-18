@@ -12,6 +12,7 @@ var bringProducts = function() {
       currentUser.indexOf(" ")
     );
     setCategories();
+    displayItems();
   });
 };
 
@@ -49,4 +50,18 @@ var displayFilter = function() {
   if ($("#sub-panel").css("display") == "none")
     $("#sub-panel").css("display", "block");
   else $("#sub-panel").css("display", "none");
+};
+
+var displayItems = function() {
+  for (var product of allProducts) {
+    console.log(product);
+    var item = document.createElement("div");
+    item.setAttribute("id", product.id);
+    item.setAttribute("class", "item");
+    document.getElementById("display").appendChild(item);
+    var image = document.createElement("img");
+    image.setAttribute("src", product.image[0]);
+    image.setAttribute("id", "item-image");
+    document.getElementById(product.id).appendChild(image);
+  }
 };
