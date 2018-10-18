@@ -5,11 +5,12 @@
     "password": "abcd1234"
   },
   {
-    "name": "Achilles",
+    "name": "Achilles ",
     "email": "dipmalyasen@yahoo.in",
     "password": "abcd1234"
   },
   {
+    "name": "Administrator ",
     "email": "admin",
     "password": "12345"
   }

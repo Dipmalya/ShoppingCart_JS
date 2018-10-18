@@ -1,0 +1,21 @@
+.discount-card {
+  padding-top: 3.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  width: 33%;
+  height: 5%;
+}
+.indent:first-child {
+  padding-left: 0%;
+}
+.indent:last-child {
+  padding-right: 0%;
+}
+.indent {
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.indent .discount-card {
+  display: inline-block;
+}

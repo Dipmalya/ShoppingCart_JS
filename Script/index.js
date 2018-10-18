@@ -12,7 +12,7 @@ var validateUser = function() {
       if (user[i].email == uname && user[i].password == pwd) {
         flag = 1;
         localStorage.setItem("present-user", user[i].name);
-        window.location = "./shop.html";
+        window.location = "./home.html";
       }
     }
     if (flag == 0)
