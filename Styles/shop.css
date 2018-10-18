@@ -105,3 +105,15 @@ html {
 #navTabs > li > ul > li:hover {
   color: #212121;
 }
+.side-panel {
+  height: 100%;
+  width: 18%;
+  position: fixed;
+  z-index: 0;
+  margin-top: 11.08%;
+  top: 0;
+  left: 0;
+  background-color: #e0e0e0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}

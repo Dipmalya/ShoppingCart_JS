@@ -239,7 +239,7 @@
     "storage": "1TB HDD",
     "processor": "i7",
     "os": "Windows 10",
-    "display": "15.6 inch 192*1080 IPS Anti-glare LED",
+    "display": "15.6 inch 1920*1080 IPS Anti-glare LED",
     "soc": "2.8GHz quad core 7th gen",
     "gpu": "NVIDIA Geforce GTX 1050Ti",
     "usb": "3 x USB 3.0",
@@ -262,7 +262,7 @@
     "storage": "128GB SSD",
     "processor": "i3",
     "os": "Windows 10",
-    "display": "13 inch 192*1080 IPS Anti-glare LED",
+    "display": "13 inch 1920*1080 IPS Anti-glare LED",
     "soc": "2.7GHz Core i3",
     "gpu": "Intel Integrated HD 620",
     "usb": "3 x USB 3.1",
@@ -285,14 +285,16 @@
     "storage": "500GB HDD",
     "processor": "i3",
     "os": "Linux",
-    "display": "15.6 inch 192*1080 IPS Anti-glare LED",
-    "soc": "Celeron Dual Core",
-    "gpu": "Intel Integrated HD 620",
-    "usb": "3 x USB 3.1",
-    "dimension": "323.9 x 219.9 x 15.81 mm",
-    "weight": "1.4 kg",
+    "display": "15.6 inch 1366*768 IPS Anti-glare LED",
+    "soc": "1.6GHz Celeron Dual Core",
+    "gpu": "Intel Integrated HD",
+    "usb": "2 x USB 2.0, 1 x USB 3.0",
+    "dimension": "380 x 260.3 x 21.7 mm",
+    "weight": "1.28 kg",
     "image": [
-      "https://rukminim1.flixcart.com/image/312/312/jiw10280/computer/s/7/x/dell-na-laptop-original-imaf6h36f8taybxa.jpeg?q=70"
+      "https://rukminim1.flixcart.com/image/832/832/jiw10280/computer/s/7/x/dell-na-laptop-original-imaf6h36f8taybxa.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jiw10280/computer/s/7/x/dell-na-laptop-original-imaf6h36uu485ddq.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jiw10280/computer/s/7/x/dell-na-laptop-original-imaf6h36vvb4bztn.jpeg?q=70"
     ]
   }
 ]
