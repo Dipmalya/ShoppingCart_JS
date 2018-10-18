@@ -20,7 +20,6 @@ var bringProducts = function() {
     );
     setCategories();
     displayItems();
-    bringItems();
   });
 };
 
@@ -56,15 +55,6 @@ var setCategories = function() {
         sub_li.innerHTML = i[0].toUpperCase();
         document.getElementById("drop-" + i[1]).appendChild(sub_li);
       }
-    }
-  }
-};
-
-var bringItems = function() {
-  var current_cat = localStorage.getItem("category");
-  for (var product = 0; product < allProducts.length; product++) {
-    if (allProducts[product].sub_category != current_cat) {
-      allProducts.splice(product, 1);
     }
   }
 };
