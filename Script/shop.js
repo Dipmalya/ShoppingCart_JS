@@ -59,9 +59,21 @@ var displayItems = function() {
     item.setAttribute("id", product.id);
     item.setAttribute("class", "item");
     document.getElementById("display").appendChild(item);
+
     var image = document.createElement("img");
     image.setAttribute("src", product.image[0]);
     image.setAttribute("id", "item-image");
     document.getElementById(product.id).appendChild(image);
+
+    var name_div = document.createElement("div");
+    name_div.setAttribute("id", "item" + product.id);
+    name_div.setAttribute("class", "item-details");
+    document.getElementById(product.id).appendChild(name_div);
+
+    var itemName = document.createElement("h4");
+    itemName.setAttribute("id", product.name);
+    document.getElementById("item" + product.id).appendChild(itemName);
+    document.getElementById(product.name).innerHTML =
+      product.name + "<br/>" + "Rs. " + product.price;
   }
 };

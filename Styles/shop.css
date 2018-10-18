@@ -134,7 +134,7 @@ html {
   text-align: center;
   line-height: 200%;
   font-size: 18px;
-  margin-bottom: 1%;
+  margin-bottom: 1.5%;
   cursor: pointer;
 }
 #sub-panel {
@@ -153,18 +153,24 @@ html {
 .item {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
+  height: 5%;
   width: 30%;
   margin-right: 3%;
   margin-bottom: 4%;
   cursor: pointer;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
 }
 #item-image {
   height: 280px;
   width: 160px;
-  margin-left: 85px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 8%;
+  padding-bottom: 6%;
 }
-#item-details {
+.item-details {
   padding: 3% 3%;
+}
+.item-details > h4 {
+  text-align: center;
 }
