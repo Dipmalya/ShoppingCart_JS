@@ -296,5 +296,735 @@
       "https://rukminim1.flixcart.com/image/832/832/jiw10280/computer/s/7/x/dell-na-laptop-original-imaf6h36uu485ddq.jpeg?q=70",
       "https://rukminim1.flixcart.com/image/832/832/jiw10280/computer/s/7/x/dell-na-laptop-original-imaf6h36vvb4bztn.jpeg?q=70"
     ]
+  },
+  {
+    "id": 17,
+    "category": "electronics",
+    "sub_category": "Laptop",
+    "brand": "HP",
+    "name": "HP 14q-cs0009TU",
+    "price": "27990",
+    "ram": "4GB",
+    "storage": "1TB HDD",
+    "processor": "i3",
+    "os": "DOS",
+    "display": "14 inch 1366*768 HD LED",
+    "soc": "2.3GHz Dual Core i3 7th Gen",
+    "gpu": "Intel Integrated HD 620",
+    "usb": "1 x USB 2.0, 2 x USB 3.1",
+    "dimension": "335 x 234 x 19.9 mm",
+    "weight": "1.47 kg",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jmz7csw0/computer/f/b/c/hp-na-laptop-original-imaf9zypu2mjhzmk.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jmz7csw0/computer/f/b/c/hp-na-laptop-original-imaf9zypczpfeyp2.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jmz7csw0/computer/f/b/c/hp-na-laptop-original-imaf9zypfzvchc8y.jpeg?q=70"
+    ]
+  },
+  {
+    "id": 18,
+    "category": "electronics",
+    "sub_category": "Laptop",
+    "brand": "HP",
+    "name": "HP 15q-ds0010TU",
+    "price": "45490",
+    "ram": "8GB",
+    "storage": "1TB HDD",
+    "processor": "i5",
+    "os": "Windows 10",
+    "display": "15.6 inch 1920*1080 HD LED",
+    "soc": "1.6GHz Quad Core i5 8th Gen",
+    "gpu": "Intel Integrated UHD 620",
+    "usb": "1 x USB 2.0, 2 x USB 3.1",
+    "dimension": "376 x 246 x 22.5 mm",
+    "weight": "1.77 kg",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/d/d/8/hp-na-laptop-original-imaf9hu7jgv9zdjx.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/d/d/8/hp-na-laptop-original-imaf9hu7hnh3mffs.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/d/d/8/hp-na-laptop-original-imaf9hu7cbkyzpht.jpeg?q=70"
+    ]
+  },
+  {
+    "id": 19,
+    "category": "electronics",
+    "sub_category": "Laptop",
+    "brand": "HP",
+    "name": "HP 15q-bu041TU",
+    "price": "35490",
+    "ram": "4GB",
+    "storage": "1TB HDD",
+    "processor": "i3",
+    "os": "Windows 10",
+    "display": "15.6 inch 1920*1080 HD LED",
+    "soc": "2.4GHz Dual Core i3 7th Gen",
+    "gpu": "Intel Integrated UHD 620",
+    "usb": "1 x USB 2.0, 2 x USB 3.1",
+    "dimension": "380 x 253.8 x 23.8 mm",
+    "weight": "2.3 kg",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jk76j680/computer/7/z/t/hp-na-laptop-original-imaf7hwnmhbdnkfr.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jk76j680/computer/7/z/t/hp-na-laptop-original-imaf7hwn2qy4fdrd.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jk76j680/computer/7/z/t/hp-na-laptop-original-imaf7hwn4cyby2m8.jpeg?q=70"
+    ]
+  },
+  {
+    "id": 20,
+    "category": "electronics",
+    "sub_category": "Laptop",
+    "brand": "HP",
+    "name": "HP 15q-ds0009TU",
+    "price": "43990",
+    "ram": "8GB",
+    "storage": "1TB HDD",
+    "processor": "i5",
+    "os": "DOS",
+    "display": "15.6 inch 1920*1080 HD LED",
+    "soc": "1.6GHz Dual Core i5 8th Gen",
+    "gpu": "Intel Integrated UHD 620",
+    "usb": "1 x USB 2.0, 2 x USB 3.0",
+    "dimension": "376 x 246 x 22.5 mm",
+    "weight": "1.77 kg",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/h/g/d/hp-na-laptop-original-imaf9hu6hwhhzan5.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/h/g/d/hp-na-laptop-original-imaf9hu7v9xwykcr.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/h/g/d/hp-na-laptop-original-imaf9hu67b2fnr8g.jpeg?q=70"
+    ]
+  },
+  {
+    "id": 21,
+    "category": "electronics",
+    "sub_category": "Laptop",
+    "brand": "HP",
+    "name": "HP Envy 13-ah0043tu",
+    "price": "69990",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "processor": "i5",
+    "os": "Windows 10",
+    "display": "13.3 inch 1920*1080 IPS Anti-glare",
+    "soc": "1.6GHz Quad Core i5 8th Gen",
+    "gpu": "Intel Integrated UHD 620",
+    "usb": "1 x USB 3.1 Type C, 2 x USB 3.1",
+    "dimension": "307 x 212 x 15 mm",
+    "weight": "1.21 kg",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/8/k/y/hp-na-thin-and-light-laptop-original-imaf9hu5gdz6qxxq.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/8/k/y/hp-na-thin-and-light-laptop-original-imaf9hu54vegmefq.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/8/k/y/hp-na-thin-and-light-laptop-original-imaf9hu5jzkexvry.jpeg?q=70"
+    ]
+  },
+  {
+    "id": 22,
+    "category": "electronics",
+    "sub_category": "Laptop",
+    "brand": "Lenovo",
+    "name": "Lenovo Ideapad 330-15IKB",
+    "price": "48990",
+    "ram": "8GB",
+    "storage": "1TB HDD",
+    "processor": "i5",
+    "os": "Windows 10",
+    "display": "15.6 inch 1366*768 Backlit Anti-glare",
+    "soc": "1.6GHz Quad Core i5 8th Gen",
+    "gpu": "Intel Integrated UHD 620",
+    "usb": "1 x USB 3.0 Type C, 2 x USB 3.0",
+    "dimension": "378 x 260 x 22.9 mm",
+    "weight": "2.2 kg",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/d/e/x/lenovo-na-laptop-original-imaf9hu7hyuktyaw.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/d/e/x/lenovo-na-laptop-original-imaf9hu7turth3e4.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/d/e/x/lenovo-na-laptop-original-imaf9hu7hmhprayx.jpeg?q=70"
+    ]
+  },
+  {
+    "id": 23,
+    "category": "electronics",
+    "sub_category": "Laptop",
+    "brand": "Lenovo",
+    "name": "Lenovo Ideapad 320E-14ISK",
+    "price": "27490",
+    "ram": "4GB",
+    "storage": "1TB HDD",
+    "processor": "i3",
+    "os": "DOS",
+    "display": "14 inch 1366*768 Backlit Anti-glare",
+    "soc": "2GHz Dual Core i3 6th Gen",
+    "gpu": "Intel Integrated HD 520",
+    "usb": "2 x USB 3.0, 1 x USB 3.0 Type C",
+    "dimension": "338 x 249 x 22.7 mm",
+    "weight": "2.1 kg",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jmz7csw0/computer/r/f/g/lenovo-na-laptop-original-imaf9ry4ucyqtwrs.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/r/f/g/lenovo-na-laptop-original-imaf9hu7mxwgfphj.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/r/f/g/lenovo-na-laptop-original-imaf9hu75xfkmhmy.jpeg?q=70"
+    ]
+  },
+  {
+    "id": 24,
+    "category": "electronics",
+    "sub_category": "Laptop",
+    "brand": "Apple",
+    "name": "Apple MacBook Air",
+    "price": "62990",
+    "ram": "8GB",
+    "storage": "128 GB SSD",
+    "processor": "i5",
+    "os": "Mac OS Sierra",
+    "display": "13.3 inch 1440 x 900 Pixel HD+ LED",
+    "soc": "1.8GHz Core i5 5th Gen",
+    "gpu": "Intel Integrated HD 6000",
+    "usb": "2 x USB 3.0, 2 x Thunderbolt 2.0",
+    "dimension": "325 x 227 x 17 mm",
+    "weight": "1.35 kg",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jmwch3k0/computer/j/8/c/apple-na-thin-and-light-laptop-original-imaf9ph3tusztfbc.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jmwch3k0/computer/j/8/c/apple-na-thin-and-light-laptop-original-imaf9ph3ydpqpxgu.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jmwch3k0/computer/j/8/c/apple-na-thin-and-light-laptop-original-imaf9ph3jyguwmnx.jpeg?q=70"
+    ]
+  },
+  {
+    "id": 25,
+    "category": "electronics",
+    "sub_category": "Laptop",
+    "brand": "Apple",
+    "name": "Apple MacBook Pro",
+    "price": "119990",
+    "ram": "8GB",
+    "storage": "256 GB SSD",
+    "processor": "i5",
+    "os": "Mac OS Sierra",
+    "display": "13.3 inch 2560 x 1600 pixel WQHD LED",
+    "soc": "2.3GHz Core i5 7th Gen",
+    "gpu": "Intel Integrated Iris Plus 640",
+    "usb": "2 x Thunderbolt 3.0 (USB Type-C)",
+    "dimension": "304.1 x 212.4 x 14.9 mm",
+    "weight": "1.37 kg",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jn4x47k0/computer/6/a/w/apple-na-thin-and-light-laptop-original-imaf9wbewtfj2ezg.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jn4x47k0/computer/6/a/w/apple-na-thin-and-light-laptop-original-imaf9wbeg6eabwgv.jpeg?q=70"
+    ]
+  },
+  {
+    "id": 26,
+    "category": "electronics",
+    "sub_category": "Laptop",
+    "brand": "Asus",
+    "name": "Asus F541UA-XO2230T",
+    "price": "26490",
+    "ram": "4GB",
+    "storage": "1TB HDD",
+    "processor": "i3",
+    "os": "Windows 10",
+    "display": "15.6 inch 1366*768 HD LED Backlit Anti-glare",
+    "soc": "2.3GHz Core i3 6th Gen",
+    "gpu": "Intel Integrated HD 520",
+    "usb": "1 x USB 2.0, 1 x USB 3.0, 1 x USB 3.1 Type C",
+    "dimension": "381 x 252 x 27.6 mm",
+    "weight": "2 kg",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/u/8/s/asus-na-laptop-original-imaf9hu6htfbstgy.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/u/8/s/asus-na-laptop-original-imaf9hu6rdnbyskh.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/u/8/s/asus-na-laptop-original-imaf9hu6pybzyfhn.jpeg?q=70"
+    ]
+  },
+  {
+    "id": 27,
+    "category": "electronics",
+    "sub_category": "Laptop",
+    "brand": "Asus",
+    "name": "Asus S410UA-EB797T",
+    "price": "52990",
+    "ram": "8GB",
+    "storage": "1TB HDD",
+    "processor": "i3",
+    "os": "Windows 10",
+    "display": "14 inch 1920*1080 Full HD LED Backlit Wideview IPS",
+    "soc": "2.3GHz Dual Core i3 8th Gen",
+    "gpu": "Intel Integrated UHD 520",
+    "usb": "2 x USB 2.0, 1 x USB 3.0, 1 x USB 3.1 Type C",
+    "dimension": "326 x 226 x 18.8 mm",
+    "weight": "1.3 kg",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jmz7csw0/computer/n/n/b/asus-na-laptop-original-imaf9zyzny6qdhfq.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jmz7csw0/computer/n/n/b/asus-na-laptop-original-imaf9zyzphntgf8p.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jmz7csw0/computer/n/n/b/asus-na-laptop-original-imaf9zyzzephnsmz.jpeg?q=70"
+    ],
+  },
+  {
+    "id": 28,
+    "category": "electronics",
+    "sub_category": "Mobile",
+    "brand": "Xiaomi",
+    "name": "Redmi 6",
+    "price": "7999",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jm2c87k0/mobile/a/u/t/mi-redmi-6-na-original-imaf92dn4sfharjg.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jm2c87k0/mobile/a/u/t/mi-redmi-6-na-original-imaf92dntbhptazy.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jm2c87k0/mobile/a/u/t/mi-redmi-6-na-original-imaf92dnhjgxnkgh.jpeg?q=70"
+    ],
+    "ram": "3GB",
+    "storage": "32GB",
+    "rear-camera": "12MP + 5MP",
+    "front-camera": "5MP",
+    "display": "13.84 cm (5.45 inch) HD+ Display",
+    "battery": "3000 mAh Li Polymer Battery",
+    "soc": "2.0 GHz Mediatek P22 Octacore Processor"
+  },
+  {
+    "id": 29,
+    "category": "electronics",
+    "sub_category": "Mobile",
+    "brand": "Xiaomi",
+    "name": "Redmi 5A",
+    "price": "5999",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jefzonk0/mobile/k/w/g/mi-redmi-5a-mci3b-original-imaf34ccfrfsrhrr.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jefzonk0/mobile/k/w/g/mi-redmi-5a-mci3b-original-imaf34cdvcmvhh9h.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jefzonk0/mobile/k/w/g/mi-redmi-5a-mci3b-original-imaf34cd6uypaxag.jpeg?q=70"
+    ],
+    "ram": "2GB",
+    "storage": "16GB",
+    "rear-camera": "13MP",
+    "front-camera": "5MP",
+    "display": "12.7 cm (5 inch) HD Display",
+    "battery": "3000 mAh Li Polymer Battery",
+    "soc": "Qualcomm Snapdragon 425 Processor"
+  },
+  {
+    "id": 30,
+    "category": "electronics",
+    "sub_category": "Mobile",
+    "brand": "Xiaomi",
+    "name": "Mi Mix 2",
+    "price": "29999",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/j8bxvgw0-1/mobile/g/j/z/mi-mi-mix-2-na-original-imaeydgnjzmvxwfz.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/j8bxvgw0-1/mobile/g/j/z/mi-mi-mix-2-na-original-imaeydhfhhxw7q4z.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/j8bxvgw0-1/mobile/g/j/z/mi-mi-mix-2-na-original-imaeydhfgtnyknxa.jpeg?q=70"
+    ],
+    "ram": "6GB",
+    "storage": "128GB",
+    "rear-camera": "12MP",
+    "front-camera": "5MP",
+    "display": "15.21 cm (5.99 inch) Full HD+ Display",
+    "battery": "3400 mAh Li Polymer Battery",
+    "soc": "Qualcomm Snapdragon 835 Octa-core 2.5GHz Processor"
+  },
+  {
+    "id": 31,
+    "category": "electronics",
+    "sub_category": "Mobile",
+    "brand": "Xiaomi",
+    "name": "Redmi Y2",
+    "price": "12479",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jkmwdjk0/mobile/c/m/c/mi-redmi-y2-y2-original-imaf7wnynyfjueps.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jkmwdjk0/mobile/c/m/c/mi-redmi-y2-y2-original-imaf7wnywkj3zgrz.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jkmwdjk0/mobile/c/m/c/mi-redmi-y2-y2-original-imaf7xvcf6myhmrh.jpeg?q=70"
+    ],
+    "ram": "4GB",
+    "storage": "64GB",
+    "rear-camera": "12MP",
+    "front-camera": "16MP",
+    "display": "15.21 cm (5.99 inch) HD Display",
+    "battery": "3080 mAh Li-ion Battery",
+    "soc": "1.3GHz Octa core Processor"
+  },
+  {
+    "id": 32,
+    "category": "electronics",
+    "sub_category": "Mobile",
+    "brand": "Xiaomi",
+    "name": "Mi A2",
+    "price": "16799",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jmf76vk0/mobile/z/d/w/mi-a2-na-original-imaf9c7jhzrvhhy8.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jmf76vk0/mobile/z/d/w/mi-a2-na-original-imaf9c7jtkhv96nj.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jmf76vk0/mobile/z/d/w/mi-a2-na-original-imaf9c7jgmgz4gjg.jpeg?q=70"
+    ],
+    "ram": "4GB",
+    "storage": "64GB",
+    "rear-camera": "20MP + 12MP",
+    "front-camera": "20MP",
+    "display": "15.21 cm (5.99 inch) Full HD Display",
+    "battery": "3010 mAh Li-ion Battery",
+    "soc": "Qualcomm Snapdragon 660 Octacore Processor"
+  },
+  {
+    "id": 32,
+    "category": "electronics",
+    "sub_category": "Mobile",
+    "brand": "Samsung",
+    "name": "Samsung Galaxy On Max",
+    "price": "12490",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/j4sronk0/mobile/3/z/h/samsung-on-max-sm-g615fzduins-original-imaevmfxe8xpzsw6.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/j4sronk0/mobile/3/z/h/samsung-on-max-sm-g615fzduins-original-imaevmfxfpxpfyce.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/j4sronk0/mobile/3/z/h/samsung-on-max-sm-g615fzduins-original-imaevmfx2yhyshrm.jpeg?q=70"
+    ],
+    "ram": "4GB",
+    "storage": "32GB",
+    "rear-camera": "13MP",
+    "front-camera": "13MP",
+    "display": "14.48 cm (5.7 inch) Full HD Display",
+    "battery": "3300 mAh Li-ion Battery",
+    "soc": "MediaTek MTK6757V/WL 2.39GHz, 1.69GHz, Octa Core"
+  },
+  {
+    "id": 32,
+    "category": "electronics",
+    "sub_category": "Mobile",
+    "brand": "Samsung",
+    "name": "Samsung Galaxy On 5",
+    "price": "6990",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/mobile/r/3/q/samsung-galaxy-on7-sm-g600f-original-imaecqkgzeuz9ebn.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/mobile/3/k/a/samsung-galaxy-on5-sm-g550fzddins-original-imaecjy9jkpzuxvn.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/mobile/3/k/a/samsung-galaxy-on5-sm-g550fzddins-original-imaecjy9gazuhfkv.jpeg?q=70"
+    ],
+    "ram": "1.5GB",
+    "storage": "8GB",
+    "rear-camera": "8MP",
+    "front-camera": "5MP",
+    "display": "12.7 cm (5 inch) HD Display",
+    "battery": "2600 mAh Li-ion Battery",
+    "soc": "Exynos 3475 Quad Core 1.3GHz"
+  },
+  {
+    "id": 33,
+    "category": "electronics",
+    "sub_category": "Mobile",
+    "brand": "Samsung",
+    "name": "Samsung Galaxy J2 Pro",
+    "price": "8500",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/j0vb3bk0/mobile/h/q/v/samsung-galaxy-j2-pro-sm-j210fzsgins-original-imaesjzp5gbz3tj9.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/j0vb3bk0/mobile/h/q/v/samsung-galaxy-j2-pro-sm-j210fzsgins-original-imaesjzp86fjdksr.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/j0vb3bk0/mobile/h/q/v/samsung-galaxy-j2-pro-sm-j210fzsgins-original-imaesjzqkvzwztf7.jpeg?q=70"
+    ],
+    "ram": "2GB",
+    "storage": "16GB",
+    "rear-camera": "8MP",
+    "front-camera": "5MP",
+    "display": "12.7 cm (5 inch) HD Display",
+    "battery": "2600 mAh Li-ion Battery",
+    "soc": "Spreadtrum Quad-Core 1.5GHz"
+  },
+  {
+    "id": 34,
+    "category": "electronics",
+    "sub_category": "Mobile",
+    "brand": "Samsung",
+    "name": "Samsung Galaxy J7 Duo",
+    "price": "15399",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jfwuz680/mobile/h/m/f/samsung-j7-duo-sm-j720f-original-imaf49ufgp38p4gh.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jfwuz680/mobile/h/m/f/samsung-j7-duo-sm-j720f-original-imaf49ufupz42wa4.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jfwuz680/mobile/h/m/f/samsung-j7-duo-sm-j720f-original-imaf49ufcsnghaw9.jpeg?q=70"
+    ],
+    "ram": "4GB",
+    "storage": "32GB",
+    "rear-camera": "13MP + 5MP",
+    "front-camera": "8MP",
+    "display": "13.97 cm (5.5 inch) HD Display",
+    "battery": "3000 mAh Li-ion Battery",
+    "soc": "Exynos 7884"
+  },
+  {
+    "id": 35,
+    "category": "electronics",
+    "sub_category": "Mobile",
+    "brand": "Samsung",
+    "name": "Samsung Galaxy J8",
+    "price": "17990",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jjelq4w0/mobile/v/s/j/samsung-galaxy-j8-sm-j810gzdgins-original-imaf6zg5dxmpgmqg.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jiw10280/mobile/v/s/j/samsung-galaxy-j8-sm-j810g-original-imaf6ky9wshk2hgz.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jjelq4w0/mobile/v/s/j/samsung-galaxy-j8-sm-j810gzdgins-original-imaf6zg6nyhuksse.jpeg?q=70"
+    ],
+    "ram": "4GB",
+    "storage": "64GB",
+    "rear-camera": "16MP + 5MP",
+    "front-camera": "16MP",
+    "display": "15.24 cm (6 inch) HD Display",
+    "battery": "3500 mAh Li-ion Battery",
+    "soc": "Qualcomm Snapdragon SDM450"
+  },
+  {
+    "id": 36,
+    "category": "electronics",
+    "sub_category": "Mobile",
+    "brand": "Apple",
+    "name": "Apple iPhone 6S",
+    "price": "32999",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/j7qi9ow0/mobile/6/t/q/apple-iphone-6s-mn0w2hn-a-original-imaexw6smfzjgqsz.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/j7qi9ow0/mobile/6/t/q/apple-iphone-6s-mn0w2hn-a-original-imaexw6shyqbz5ub.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/j7qi9ow0/mobile/6/t/q/apple-iphone-6s-mn0w2hn-a-original-imaexw6svn7pgfg9.jpeg?q=70"
+    ],
+    "ram": "3GB",
+    "storage": "32GB",
+    "rear-camera": "12MP",
+    "front-camera": "5MP",
+    "display": "11.94 cm (4.7 inch) Retina HD Display",
+    "battery": "1715 mAh Li-ion Battery",
+    "soc": "Apple A9 64-bit processor"
+  },
+  {
+    "id": 37,
+    "category": "electronics",
+    "sub_category": "Mobile",
+    "brand": "Apple",
+    "name": "Apple iPhone 7",
+    "price": "46999",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/mobile/7/e/e/apple-iphone-7-na-original-imaemzee435f9gpu.jpeg?q=70"
+    ],
+    "ram": "3GB",
+    "storage": "32GB",
+    "rear-camera": "12MP",
+    "front-camera": "7MP",
+    "display": "11.94 cm (4.7 inch) Retina HD Display",
+    "battery": "2030 mAh Li-ion Battery",
+    "soc": "Apple A10 Fusion 64-bit processor"
+  },
+  {
+    "id": 38,
+    "category": "electronics",
+    "sub_category": "Mobile",
+    "brand": "Apple",
+    "name": "Apple iPhone X",
+    "price": "90999",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/j9d3bm80/mobile/k/x/a/apple-iphone-x-mqa82hn-a-original-imaeyysgmypxmazk.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/j9d3bm80/mobile/k/x/a/apple-iphone-x-mqa82hn-a-original-imaeyzyf8dyfgaaq.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/j9d3bm80/mobile/k/x/a/apple-iphone-x-mqa82hn-a-original-imaeyzzw2zrxkwug.jpeg?q=70"
+    ],
+    "ram": "4GB",
+    "storage": "64GB",
+    "rear-camera": "12MP + 12MP",
+    "front-camera": "7MP",
+    "display": "14.73 cm (5.8 inch) Super Retina HD Display",
+    "battery": "2580 mAh Li-ion Battery",
+    "soc": "A11 Bionic Chip with 64-bit Architecture"
+  },
+  {
+    "id": 39,
+    "category": "electronics",
+    "sub_category": "Mobile",
+    "brand": "Lenovo",
+    "name": "Lenovo K8 Note",
+    "price": "10820",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/ja9yg7k0/mobile/k/r/h/lenovo-k8-note-xt1902-original-imaez9xxp6zfrjzg.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/ja9yg7k0/mobile/k/r/h/lenovo-k8-note-xt1902-original-imaez9xxrsg39age.jpeg?q=70"
+    ],
+    "ram": "4GB",
+    "storage": "64GB",
+    "rear-camera": "13MP + 5MP",
+    "front-camera": "5MP",
+    "display": "13.97 cm (5.5 inch) Full HD Display",
+    "battery": "4000 mAh Li-ion Battery",
+    "soc": "Helio X23 Deca-core 2.3GHz 64-bit processor"
+  },
+  {
+    "id": 40,
+    "category": "electronics",
+    "sub_category": "Mobile",
+    "brand": "Lenovo",
+    "name": "Lenovo K6 Note",
+    "price": "13773",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/j0zlevk0/mobile/x/z/m/lenovo-k6-note-k6-note-3gb-original-imaes7d48fkh8tbf.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/j3vwk280/mobile/x/z/m/lenovo-k6-note-k6-note-3gb-original-imaeux2qqdwcfzmf.jpeg?q=70"
+    ],
+    "ram": "3GB",
+    "storage": "32GB",
+    "rear-camera": "16MP",
+    "front-camera": "8MP",
+    "display": "13.97 cm (5.5 inch) Full HD Display",
+    "battery": "4000 mAh Li-ion Battery",
+    "soc": "Octa Core 1.4GHz"
+  },
+  {
+    "id": 41,
+    "category": "electronics",
+    "sub_category": "Mobile",
+    "brand": "Lenovo",
+    "name": "Lenovo A850",
+    "price": "15500",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/mobile/7/t/3/lenovo-a850-original-imadpxnuzdm9cnhs.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/mobile/7/t/3/lenovo-a850-original-imadpxnuhyexxxjw.jpeg?q=70"
+    ],
+    "ram": "3GB",
+    "storage": "32GB",
+    "rear-camera": "16MP",
+    "front-camera": "8MP",
+    "display": "13.97 cm (5.5 inch) Full HD Display",
+    "battery": "3800 mAh Li-ion Battery",
+    "soc": "MTK 6582M"
+  },
+  {
+    "id": 42,
+    "category": "electronics",
+    "sub_category": "Mobile",
+    "brand": "Motorola",
+    "name": "Moto X4 Play",
+    "price": "15500",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/j9u8lu80/mobile/q/v/h/motorola-moto-x4-pa8t0002in-original-imaezk6g4pazpe4r.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/j9u8lu80/mobile/q/v/h/motorola-moto-x4-pa8t0002in-original-imaezk6ggtvuyhfy.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/j9u8lu80/mobile/q/v/h/motorola-moto-x4-pa8t0002in-original-imaezk6ff7gnn5hh.jpeg?q=70"
+    ],
+    "ram": "4GB",
+    "storage": "64GB",
+    "rear-camera": "12MP + 8MP",
+    "front-camera": "16MP",
+    "display": "13.21 cm (5.2 inch) Full HD Display",
+    "battery": "3000 mAh Li-ion Battery",
+    "soc": "Qualcomm Snapdragon 630"
+  },
+  {
+    "id": 43,
+    "category": "electronics",
+    "sub_category": "Mobile",
+    "brand": "Motorola",
+    "name": "Moto Z2 Play",
+    "price": "18999",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/j3lwh3k0/mobile/z/g/e/motorola-moto-z2-play-xt1710-10-original-imaeup4v8qyskzar.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/j3nbwy80/mobile/z/g/e/motorola-moto-z2-play-xt1710-10-original-imaeuqzhxa2bmfuw.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/j3lwh3k0/mobile/z/g/e/motorola-moto-z2-play-xt1710-10-original-imaeup4ugmwmw4t6.jpeg?q=70"
+    ],
+    "ram": "4GB",
+    "storage": "64GB",
+    "rear-camera": "12MP",
+    "front-camera": "5MP",
+    "display": "13.97 cm (5.5 inch) Full HD Display",
+    "battery": "3000 mAh Li-ion Battery",
+    "soc": "Qualcomm Snapdragon 626 Octacore 2.2GHz"
+  },
+  {
+    "id": 44,
+    "category": "electronics",
+    "sub_category": "Mobile",
+    "brand": "Motorola",
+    "name": "Moto E5 Plus",
+    "price": "11999",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jjhglu80/mobile/g/y/h/motorola-e5-plus-e5-plus-original-imaf7ys4hux8fcrr.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jjhglu80/mobile/g/y/h/motorola-e5-plus-e5-plus-original-imaf7ys4cecqh6t7.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jjhglu80/mobile/g/y/h/motorola-e5-plus-e5-plus-original-imaf7ys5anqqfeuf.jpeg?q=70"
+    ],
+    "ram": "3GB",
+    "storage": "32GB",
+    "rear-camera": "12MP",
+    "front-camera": "5MP",
+    "display": "15.24 cm (6 inch) Full HD Display",
+    "battery": "5000 mAh Li-ion Battery",
+    "soc": "Qualcomm Snapdragon 430"
+  },
+  {
+    "id": 45,
+    "category": "electronics",
+    "sub_category": "Mobile",
+    "brand": "Motorola",
+    "name": "Moto G6",
+    "price": "15999",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jlwmgsw0/mobile/t/w/a/motorola-moto-g6-xt-1925-13-original-imaf8xu2ftcmpwjf.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jlwmgsw0/mobile/t/w/a/motorola-moto-g6-xt-1925-13-original-imaf8xu2ztrbgqfx.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jlwmgsw0/mobile/t/w/a/motorola-moto-g6-xt-1925-13-original-imaf8xubzwm5fpp3.jpeg?q=70"
+    ],
+    "ram": "4GB",
+    "storage": "64GB",
+    "rear-camera": "12MP + 5MP",
+    "front-camera": "16MP",
+    "display": "14.48 cm (5.7 inch) Full HD Display",
+    "battery": "3000 mAh Li-ion Battery",
+    "soc": "Qualcomm Snapdragon 620 Octacore 1.8GHz"
+  },
+  {
+    "id": 46,
+    "category": "electronics",
+    "sub_category": "Camera",
+    "brand": "Canon",
+    "name": "Canon EOS 1300D DSLR",
+    "price": "25490",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/camera/j/s/u/canon-eos-1300d-dslr-original-imaeh33eyhy9gcgm.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/camera/j/s/u/canon-eos-1300d-dslr-original-imaeh33ezbpmezeu.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/camera/j/s/u/canon-eos-1300d-dslr-original-imaeh33e9ytzjrzu.jpeg?q=70"
+    ],
+    "type":"DSLR",
+    "effective_pixel":"18MP",
+    "shutter_speed":"1/4000 sec",
+    "video":"5184 x 3456"
+  },
+  {
+    "id": 47,
+    "category": "electronics",
+    "sub_category": "Camera",
+    "brand": "Canon",
+    "name": "Canon EOS 3000D DSLR",
+    "price": "24990",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jfbfde80/camera/n/r/n/canon-eos-eos-3000d-dslr-original-imaf3t5h9yuyc5zu.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jfbfde80/camera/n/r/n/canon-eos-3000d-original-imaf3t5hjrz6zzzc.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jmthle80-1/dslr-camera/n/r/n/eos-eos-3000d-canon-original-imaf9n6fqhmgt4cv.jpeg?q=70"
+    ],
+    "type":"DSLR",
+    "effective_pixel":"18MP",
+    "shutter_speed":"1/4000 sec",
+    "video":"1920 x 1080"
+  },
+  {
+    "id": 48,
+    "category": "electronics",
+    "sub_category": "Camera",
+    "brand": "Canon",
+    "name": "Canon EOS 200D DSLR",
+    "price": "39990",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/j9yixe80/dslr-camera/t/m/d/eos-200d-eos-200d-canon-original-imaezhnkrgvstcpt.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/j9yixe80/dslr-camera/t/m/d/eos-200d-eos-200d-canon-original-imaezhnkchbuhdqk.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/j9yixe80/dslr-camera/t/m/d/eos-200d-eos-200d-canon-original-imaezhnkwn7mzxxz.jpeg?q=70"
+    ],
+    "type":"DSLR",
+    "effective_pixel":"24.2MP",
+    "shutter_speed":"1/4000 sec",
+    "video":"6000 x 4000"
+  },
+  {
+    "id": 49,
+    "category": "electronics",
+    "sub_category": "Camera",
+    "brand": "Nikon",
+    "name": "Nikon D3400 DSLR",
+    "price": "38990",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/dslr-camera/3/d/h/digital-camera-d3400-kit-with-lens-af-p-dx-nikkor-18-55-mm-f-3-5-original-imaemk39hqwhhhwj.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jgwkzgw0/dslr-camera/3/d/h/digital-camera-d3400-d3400-nikon-original-imaf5fheuzysfchr.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jgwkzgw0/dslr-camera/3/d/h/digital-camera-d3400-d3400-nikon-original-imaf5fherxqzgknk.jpeg?q=70"
+    ],
+    "type":"DSLR",
+    "effective_pixel":"24.2MP",
+    "shutter_speed":"1/4000 sec",
+    "video":"1920 x 1080"
+  },
+  {
+    "id": 50,
+    "category": "electronics",
+    "sub_category": "Camera",
+    "brand": "Nikon",
+    "name": "Nikon D5600 DSLR",
+    "price": "53990",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/dslr-camera/t/h/g/d5600-nikon-d5600-original-imaezvbrhkgzyywz.jpeg?q=70"
+    ],
+    "type":"DSLR",
+    "effective_pixel":"24.2MP",
+    "shutter_speed":"1/4000-30 sec",
+    "video":"1920 x 1080"
   }
 ]
