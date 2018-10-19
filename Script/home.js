@@ -19,7 +19,6 @@ var bringProducts = function() {
       currentUser.indexOf(" ")
     );
     setCategories();
-    displayItems();
   });
 };
 
@@ -56,45 +55,5 @@ var setCategories = function() {
         document.getElementById("drop-" + i[1]).appendChild(sub_li);
       }
     }
-  }
-};
-
-/*
-    @author : Dipmalya Sen
-    @desc : This function toggles the collapsable filter menu
-*/
-var displayFilter = function() {
-  if ($("#sub-panel").css("display") == "none")
-    $("#sub-panel").css("display", "block");
-  else $("#sub-panel").css("display", "none");
-};
-
-/*
-    @author : Dipmalya Sen
-    @desc : This function dynamically fetches the data from the json file,
-            adds the image and name
-*/
-var displayItems = function() {
-  for (var product of allProducts) {
-    var item = document.createElement("div");
-    item.setAttribute("id", product.id);
-    item.setAttribute("class", "item");
-    document.getElementById("display").appendChild(item);
-
-    var image = document.createElement("img");
-    image.setAttribute("src", product.image[0]);
-    image.setAttribute("id", "item-image");
-    document.getElementById(product.id).appendChild(image);
-
-    var name_div = document.createElement("div");
-    name_div.setAttribute("id", "item" + product.id);
-    name_div.setAttribute("class", "item-details");
-    document.getElementById(product.id).appendChild(name_div);
-
-    var itemName = document.createElement("h4");
-    itemName.setAttribute("id", product.name);
-    document.getElementById("item" + product.id).appendChild(itemName);
-    document.getElementById(product.name).innerHTML =
-      product.name + "<br/>" + "Rs. " + product.price;
   }
 };

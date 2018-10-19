@@ -650,7 +650,7 @@
     "soc": "Qualcomm Snapdragon 660 Octacore Processor"
   },
   {
-    "id": 32,
+    "id": 82,
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Samsung",
@@ -670,7 +670,7 @@
     "soc": "MediaTek MTK6757V/WL 2.39GHz, 1.69GHz, Octa Core"
   },
   {
-    "id": 32,
+    "id": 83,
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Samsung",
@@ -1133,7 +1133,7 @@
     "size": ["S", "M", "L", "XL"]
   },
   {
-    "id": 57,
+    "id": 58,
     "category": "fashion",
     "sub_category": "Men",
     "type": "T-Shirt",
@@ -1148,7 +1148,7 @@
     "size": ["M", "L", "XL"]
   },
   {
-    "id": 58,
+    "id": 59,
     "category": "fashion",
     "sub_category": "Men",
     "type": "T-Shirt",
@@ -1163,7 +1163,7 @@
     "size": ["S", "M", "L", "XL", "XL"]
   },
   {
-    "id": 59,
+    "id": 60,
     "category": "fashion",
     "sub_category": "Men",
     "type": "T-Shirt",
@@ -1178,7 +1178,7 @@
     "size": ["S", "M", "L", "XL", "XL"]
   },
   {
-    "id": 60,
+    "id": 61,
     "category": "fashion",
     "sub_category": "Men",
     "type": "T-Shirt",
@@ -1193,7 +1193,7 @@
     "size": ["S", "M", "L", "XL", "XL"]
   },
   {
-    "id": 61,
+    "id": 62,
     "category": "fashion",
     "sub_category": "Women",
     "type": "Saree",
@@ -1207,7 +1207,7 @@
     "feature": "Embroidered saree"
   },
   {
-    "id": 62,
+    "id": 63,
     "category": "fashion",
     "sub_category": "Women",
     "type": "Saree",
@@ -1221,7 +1221,7 @@
     "feature": "Georgette saree"
   },
   {
-    "id": 63,
+    "id": 64,
     "category": "fashion",
     "sub_category": "Women",
     "type": "Saree",
@@ -1235,7 +1235,7 @@
     "feature": "Cotton-Linen blend saree"
   },
   {
-    "id": 64,
+    "id": 65,
     "category": "fashion",
     "sub_category": "Women",
     "type": "Casual Top",
@@ -1249,7 +1249,7 @@
     "feature": "Georgette 3/4th sleeve Mandarin collar"
   },
   {
-    "id": 65,
+    "id": 66,
     "category": "fashion",
     "sub_category": "Women",
     "type": "Casual Top",
@@ -1263,7 +1263,7 @@
     "feature": "Cotton 3/4th sleeve Mandarin collar"
   },
   {
-    "id": 66,
+    "id": 67,
     "category": "fashion",
     "sub_category": "Women",
     "type": "Casual Top",
@@ -1277,7 +1277,7 @@
     "feature": "Ployester Embroidered round neck"
   },
   {
-    "id": 67,
+    "id": 68,
     "category": "fashion",
     "sub_category": "Women",
     "type": "Casual Top",
@@ -1291,7 +1291,7 @@
     "feature": "Cotton Butterfly sleeve crepe"
   },
   {
-    "id": 68,
+    "id": 69,
     "category": "others",
     "sub_category": "Watch",
     "type": "Men",
@@ -1305,7 +1305,7 @@
     "display": "Analog"
   },
   {
-    "id": 69,
+    "id": 70,
     "category": "others",
     "sub_category": "Watch",
     "type": "Men",
@@ -1319,7 +1319,7 @@
     "display": "Analog"
   },
   {
-    "id": 70,
+    "id": 71,
     "category": "others",
     "sub_category": "Watch",
     "type": "Men",
@@ -1328,20 +1328,6 @@
     "price": "2165",
     "image": [
       "https://rukminim1.flixcart.com/image/832/832/watch/k/p/m/nf1648ym02-titan-original-imae8dtnwpwr4ctb.jpeg?q=70"
-    ],
-    "display": "Analog"
-  },
-  {
-    "id": 71,
-    "category": "others",
-    "sub_category": "Watch",
-    "type": "Men",
-    "brand": "Titan",
-    "name": "Titan NH1639SM03 Watch",
-    "price": "1835",
-    "image": [
-      "https://rukminim1.flixcart.com/image/832/832/watch/k/e/6/1639sm03-titan-original-imaedbtj5gegwxdg.jpeg?q=70",
-      "https://rukminim1.flixcart.com/image/832/832/watch/k/e/6/1639sm03-titan-original-imaedbtjgmrxy8mp.jpeg?q=70"
     ],
     "display": "Analog"
   },
@@ -1364,6 +1350,20 @@
     "category": "others",
     "sub_category": "Watch",
     "type": "Men",
+    "brand": "Titan",
+    "name": "Titan 9151sm02 Watch",
+    "price": "1835",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jhjg13k0/watch/a/g/g/9151sm02-titan-original-imaf5jh43jybqdzh.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/832/832/jhjg13k0/watch/a/g/g/9151sm02-titan-original-imaf5jh4usg8hgqz.jpeg?q=70"
+    ],
+    "display": "Analog"
+  },
+  {
+    "id": 74,
+    "category": "others",
+    "sub_category": "Watch",
+    "type": "Men",
     "brand": "FastTrack",
     "name": "Fastrack 38045PP03 Trendies Watch",
     "price": "1860",
@@ -1374,7 +1374,7 @@
     "display": "Digital"
   },
   {
-    "id": 74,
+    "id": 75,
     "category": "others",
     "sub_category": "Watch",
     "type": "Men",
@@ -1388,7 +1388,7 @@
     "display": "Digital"
   },
   {
-    "id": 75,
+    "id": 76,
     "category": "others",
     "sub_category": "Watch",
     "type": "Men",
@@ -1402,7 +1402,7 @@
     "display": "Analog"
   },
   {
-    "id": 76,
+    "id": 77,
     "category": "others",
     "sub_category": "Watch",
     "type": "Women",
@@ -1416,7 +1416,7 @@
     "display": "Analog"
   },
   {
-    "id": 77,
+    "id": 78,
     "category": "others",
     "sub_category": "Watch",
     "type": "Women",
@@ -1430,7 +1430,7 @@
     "display": "Analog"
   },
   {
-    "id": 78,
+    "id": 79,
     "category": "others",
     "sub_category": "Watch",
     "type": "Women",
@@ -1444,7 +1444,7 @@
     "display": "Analog"
   },
   {
-    "id": 79,
+    "id": 80,
     "category": "others",
     "sub_category": "Watch",
     "type": "Women",
@@ -1458,7 +1458,7 @@
     "display": "Analog"
   },
   {
-    "id": 80,
+    "id": 81,
     "category": "others",
     "sub_category": "Watch",
     "type": "Women",
