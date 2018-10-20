@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "001",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Xiaomi",
@@ -20,7 +20,7 @@
     "soc": "Qualcomm Snapdragon 636 Processor"
   },
   {
-    "id": 2,
+    "id": "002",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Samsung",
@@ -40,7 +40,7 @@
     "soc": "Samsung Exynos Octa Core Processor (2.2 GHz) Processor"
   },
   {
-    "id": 3,
+    "id": "003",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "OnePlus",
@@ -60,11 +60,12 @@
     "soc": "Qualcomm Snapdragon 835 Processor"
   },
   {
-    "id": 4,
+    "id": "004",
     "category": "fashion",
     "sub_category": "Men",
-    "type": "T-Shirt",
+    "brand":"Maniac",
     "name": "Maniac checkered Men's T-Shirt",
+    "type": "T-Shirt",
     "price": "449",
     "image": [
       "https://rukminim1.flixcart.com/image/832/832/jdyuefk0/t-shirt/j/6/h/s-mens-ss18-rn-fs-checked-tshirt-navy-maniac-original-imaf2r9whsgg7bxg.jpeg?q=70",
@@ -74,10 +75,11 @@
     "size": ["S", "M", "L", "XL", "XXL"]
   },
   {
-    "id": 5,
+    "id": "005",
     "category": "fashion",
     "sub_category": "Men",
     "type": "Shirt",
+    "brand":"Highlander",
     "name": "Highlander Men Checkered Shirt",
     "price": "649",
     "image": [
@@ -88,9 +90,10 @@
     "size": ["S", "M", "L", "XL"]
   },
   {
-    "id": 6,
+    "id": "006",
     "category": "fashion",
     "sub_category": "Women",
+    "brand":"Saara",
     "type": "Saree",
     "name": "Saara Self Design Fashion Poly Silk Saree",
     "price": "699",
@@ -101,7 +104,7 @@
     "feature": "Poly Silk , Blouse Fabric : Poly Silk"
   },
   {
-    "id": 7,
+    "id": "007",
     "category": "fashion",
     "sub_category": "Women",
     "type": "Casual Top",
@@ -115,9 +118,10 @@
     "size": ["S", "M", "L", "XL"]
   },
   {
-    "id": 8,
+    "id": "008",
     "category": "home",
     "sub_category": "furniture",
+    "brand":"RoyalOak",
     "name": "RoyalOak Beat Metal Coffee Table",
     "price": "4699",
     "Material": "Carbon Steel Metal",
@@ -127,7 +131,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": "009",
     "category": "others",
     "sub_category": "sports",
     "sports": "cricket",
@@ -141,7 +145,7 @@
     "Ideal For": "Men (above 12)"
   },
   {
-    "id": 10,
+    "id": "010",
     "category": "electronics",
     "sub_category": "Laptop",
     "brand": "Dell",
@@ -163,7 +167,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": "011",
     "category": "electronics",
     "sub_category": "Laptop",
     "brand": "HP",
@@ -185,7 +189,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": "012",
     "category": "electronics",
     "sub_category": "Laptop",
     "brand": "Dell",
@@ -207,7 +211,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": "013",
     "category": "electronics",
     "sub_category": "Laptop",
     "brand": "Dell",
@@ -229,7 +233,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": "014",
     "category": "electronics",
     "sub_category": "Laptop",
     "brand": "Dell",
@@ -252,7 +256,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": "015",
     "category": "electronics",
     "sub_category": "Laptop",
     "brand": "Dell",
@@ -275,7 +279,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": "016",
     "category": "electronics",
     "sub_category": "Laptop",
     "brand": "Dell",
@@ -321,7 +325,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": "018",
     "category": "electronics",
     "sub_category": "Laptop",
     "brand": "HP",
@@ -344,7 +348,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": "019",
     "category": "electronics",
     "sub_category": "Laptop",
     "brand": "HP",
@@ -367,7 +371,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": "020",
     "category": "electronics",
     "sub_category": "Laptop",
     "brand": "HP",
@@ -390,7 +394,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": "021",
     "category": "electronics",
     "sub_category": "Laptop",
     "brand": "HP",
@@ -413,7 +417,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": "022",
     "category": "electronics",
     "sub_category": "Laptop",
     "brand": "Lenovo",
@@ -436,7 +440,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": "023",
     "category": "electronics",
     "sub_category": "Laptop",
     "brand": "Lenovo",
@@ -459,7 +463,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": "024",
     "category": "electronics",
     "sub_category": "Laptop",
     "brand": "Apple",
@@ -482,7 +486,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": "025",
     "category": "electronics",
     "sub_category": "Laptop",
     "brand": "Apple",
@@ -504,7 +508,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": "026",
     "category": "electronics",
     "sub_category": "Laptop",
     "brand": "Asus",
@@ -527,7 +531,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": "027",
     "category": "electronics",
     "sub_category": "Laptop",
     "brand": "Asus",
@@ -550,7 +554,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": "028",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Xiaomi",
@@ -570,7 +574,7 @@
     "soc": "2.0 GHz Mediatek P22 Octacore Processor"
   },
   {
-    "id": 29,
+    "id": "029",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Xiaomi",
@@ -590,7 +594,7 @@
     "soc": "Qualcomm Snapdragon 425 Processor"
   },
   {
-    "id": 30,
+    "id": "030",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Xiaomi",
@@ -610,7 +614,7 @@
     "soc": "Qualcomm Snapdragon 835 Octa-core 2.5GHz Processor"
   },
   {
-    "id": 31,
+    "id": "031",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Xiaomi",
@@ -630,7 +634,7 @@
     "soc": "1.3GHz Octa core Processor"
   },
   {
-    "id": 32,
+    "id": "032",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Xiaomi",
@@ -650,7 +654,7 @@
     "soc": "Qualcomm Snapdragon 660 Octacore Processor"
   },
   {
-    "id": 82,
+    "id": "082",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Samsung",
@@ -670,7 +674,7 @@
     "soc": "MediaTek MTK6757V/WL 2.39GHz, 1.69GHz, Octa Core"
   },
   {
-    "id": 83,
+    "id": "083",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Samsung",
@@ -690,7 +694,7 @@
     "soc": "Exynos 3475 Quad Core 1.3GHz"
   },
   {
-    "id": 33,
+    "id": "033",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Samsung",
@@ -710,7 +714,7 @@
     "soc": "Spreadtrum Quad-Core 1.5GHz"
   },
   {
-    "id": 34,
+    "id": "034",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Samsung",
@@ -730,7 +734,7 @@
     "soc": "Exynos 7884"
   },
   {
-    "id": 35,
+    "id": "035",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Samsung",
@@ -750,7 +754,7 @@
     "soc": "Qualcomm Snapdragon SDM450"
   },
   {
-    "id": 36,
+    "id": "036",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Apple",
@@ -770,7 +774,7 @@
     "soc": "Apple A9 64-bit processor"
   },
   {
-    "id": 37,
+    "id": "037",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Apple",
@@ -788,7 +792,7 @@
     "soc": "Apple A10 Fusion 64-bit processor"
   },
   {
-    "id": 38,
+    "id": "038",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Apple",
@@ -808,7 +812,7 @@
     "soc": "A11 Bionic Chip with 64-bit Architecture"
   },
   {
-    "id": 39,
+    "id": "039",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Lenovo",
@@ -827,7 +831,7 @@
     "soc": "Helio X23 Deca-core 2.3GHz 64-bit processor"
   },
   {
-    "id": 40,
+    "id": "040",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Lenovo",
@@ -846,7 +850,7 @@
     "soc": "Octa Core 1.4GHz"
   },
   {
-    "id": 41,
+    "id": "041",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Lenovo",
@@ -865,7 +869,7 @@
     "soc": "MTK 6582M"
   },
   {
-    "id": 42,
+    "id": "042",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Motorola",
@@ -885,7 +889,7 @@
     "soc": "Qualcomm Snapdragon 630"
   },
   {
-    "id": 43,
+    "id": "043",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Motorola",
@@ -905,7 +909,7 @@
     "soc": "Qualcomm Snapdragon 626 Octacore 2.2GHz"
   },
   {
-    "id": 44,
+    "id": "044",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Motorola",
@@ -925,7 +929,7 @@
     "soc": "Qualcomm Snapdragon 430"
   },
   {
-    "id": 45,
+    "id": "045",
     "category": "electronics",
     "sub_category": "Mobile",
     "brand": "Motorola",
@@ -945,7 +949,7 @@
     "soc": "Qualcomm Snapdragon 620 Octacore 1.8GHz"
   },
   {
-    "id": 46,
+    "id": "046",
     "category": "electronics",
     "sub_category": "Camera",
     "brand": "Canon",
@@ -962,7 +966,7 @@
     "video": "5184 x 3456"
   },
   {
-    "id": 47,
+    "id": "047",
     "category": "electronics",
     "sub_category": "Camera",
     "brand": "Canon",
@@ -979,7 +983,7 @@
     "video": "1920 x 1080"
   },
   {
-    "id": 48,
+    "id": "048",
     "category": "electronics",
     "sub_category": "Camera",
     "brand": "Canon",
@@ -996,7 +1000,7 @@
     "video": "6000 x 4000"
   },
   {
-    "id": 49,
+    "id": "049",
     "category": "electronics",
     "sub_category": "Camera",
     "brand": "Nikon",
@@ -1013,7 +1017,7 @@
     "video": "1920 x 1080"
   },
   {
-    "id": 50,
+    "id": "050",
     "category": "electronics",
     "sub_category": "Camera",
     "brand": "Nikon",
@@ -1028,7 +1032,7 @@
     "video": "1920 x 1080"
   },
   {
-    "id": 51,
+    "id": "051",
     "category": "fashion",
     "sub_category": "Men",
     "type": "Shirt",
@@ -1043,7 +1047,7 @@
     "size": ["S", "M", "L", "XL"]
   },
   {
-    "id": 52,
+    "id": "052",
     "category": "fashion",
     "sub_category": "Men",
     "type": "Shirt",
@@ -1058,7 +1062,7 @@
     "size": ["S", "M", "L", "XL"]
   },
   {
-    "id": 53,
+    "id": "053",
     "category": "fashion",
     "sub_category": "Men",
     "type": "Shirt",
@@ -1073,7 +1077,7 @@
     "size": ["S", "M", "L", "XL", "XXL", "3XL"]
   },
   {
-    "id": 54,
+    "id": "054",
     "category": "fashion",
     "sub_category": "Men",
     "type": "Shirt",
@@ -1088,7 +1092,7 @@
     "size": ["XL", "XXL", "3XL"]
   },
   {
-    "id": 55,
+    "id": "055",
     "category": "fashion",
     "sub_category": "Men",
     "type": "Shirt",
@@ -1103,7 +1107,7 @@
     "size": ["M", "L", "XL", "XXL", "3XL"]
   },
   {
-    "id": 56,
+    "id": "056",
     "category": "fashion",
     "sub_category": "Men",
     "type": "T-Shirt",
@@ -1118,7 +1122,7 @@
     "size": ["S", "M", "L", "XL", "XXL"]
   },
   {
-    "id": 57,
+    "id": "057",
     "category": "fashion",
     "sub_category": "Men",
     "type": "T-Shirt",
@@ -1133,7 +1137,7 @@
     "size": ["S", "M", "L", "XL"]
   },
   {
-    "id": 58,
+    "id": "058",
     "category": "fashion",
     "sub_category": "Men",
     "type": "T-Shirt",
@@ -1148,7 +1152,7 @@
     "size": ["M", "L", "XL"]
   },
   {
-    "id": 59,
+    "id": "059",
     "category": "fashion",
     "sub_category": "Men",
     "type": "T-Shirt",
@@ -1163,7 +1167,7 @@
     "size": ["S", "M", "L", "XL", "XL"]
   },
   {
-    "id": 60,
+    "id": "060",
     "category": "fashion",
     "sub_category": "Men",
     "type": "T-Shirt",
@@ -1178,7 +1182,7 @@
     "size": ["S", "M", "L", "XL", "XL"]
   },
   {
-    "id": 61,
+    "id": "061",
     "category": "fashion",
     "sub_category": "Men",
     "type": "T-Shirt",
@@ -1193,7 +1197,7 @@
     "size": ["S", "M", "L", "XL", "XL"]
   },
   {
-    "id": 62,
+    "id": "062",
     "category": "fashion",
     "sub_category": "Women",
     "type": "Saree",
@@ -1207,7 +1211,7 @@
     "feature": "Embroidered saree"
   },
   {
-    "id": 63,
+    "id": "063",
     "category": "fashion",
     "sub_category": "Women",
     "type": "Saree",
@@ -1221,7 +1225,7 @@
     "feature": "Georgette saree"
   },
   {
-    "id": 64,
+    "id": "064",
     "category": "fashion",
     "sub_category": "Women",
     "type": "Saree",
@@ -1235,7 +1239,7 @@
     "feature": "Cotton-Linen blend saree"
   },
   {
-    "id": 65,
+    "id": "065",
     "category": "fashion",
     "sub_category": "Women",
     "type": "Casual Top",
@@ -1249,7 +1253,7 @@
     "feature": "Georgette 3/4th sleeve Mandarin collar"
   },
   {
-    "id": 66,
+    "id": "066",
     "category": "fashion",
     "sub_category": "Women",
     "type": "Casual Top",
@@ -1263,7 +1267,7 @@
     "feature": "Cotton 3/4th sleeve Mandarin collar"
   },
   {
-    "id": 67,
+    "id": "067",
     "category": "fashion",
     "sub_category": "Women",
     "type": "Casual Top",
@@ -1277,7 +1281,7 @@
     "feature": "Ployester Embroidered round neck"
   },
   {
-    "id": 68,
+    "id": "068",
     "category": "fashion",
     "sub_category": "Women",
     "type": "Casual Top",
@@ -1291,7 +1295,7 @@
     "feature": "Cotton Butterfly sleeve crepe"
   },
   {
-    "id": 69,
+    "id": "069",
     "category": "others",
     "sub_category": "Watch",
     "type": "Men",
@@ -1305,7 +1309,7 @@
     "display": "Analog"
   },
   {
-    "id": 70,
+    "id": "070",
     "category": "others",
     "sub_category": "Watch",
     "type": "Men",
@@ -1319,7 +1323,7 @@
     "display": "Analog"
   },
   {
-    "id": 71,
+    "id": "071",
     "category": "others",
     "sub_category": "Watch",
     "type": "Men",
@@ -1332,7 +1336,7 @@
     "display": "Analog"
   },
   {
-    "id": 72,
+    "id": "072",
     "category": "others",
     "sub_category": "Watch",
     "type": "Men",
@@ -1346,7 +1350,7 @@
     "display": "Analog"
   },
   {
-    "id": 73,
+    "id": "073",
     "category": "others",
     "sub_category": "Watch",
     "type": "Men",
@@ -1360,7 +1364,7 @@
     "display": "Analog"
   },
   {
-    "id": 74,
+    "id": "074",
     "category": "others",
     "sub_category": "Watch",
     "type": "Men",
@@ -1374,7 +1378,7 @@
     "display": "Digital"
   },
   {
-    "id": 75,
+    "id": "075",
     "category": "others",
     "sub_category": "Watch",
     "type": "Men",
@@ -1388,7 +1392,7 @@
     "display": "Digital"
   },
   {
-    "id": 76,
+    "id": "076",
     "category": "others",
     "sub_category": "Watch",
     "type": "Men",
@@ -1402,7 +1406,7 @@
     "display": "Analog"
   },
   {
-    "id": 77,
+    "id": "077",
     "category": "others",
     "sub_category": "Watch",
     "type": "Women",
@@ -1416,7 +1420,7 @@
     "display": "Analog"
   },
   {
-    "id": 78,
+    "id": "078",
     "category": "others",
     "sub_category": "Watch",
     "type": "Women",
@@ -1430,7 +1434,7 @@
     "display": "Analog"
   },
   {
-    "id": 79,
+    "id": "079",
     "category": "others",
     "sub_category": "Watch",
     "type": "Women",
@@ -1444,7 +1448,7 @@
     "display": "Analog"
   },
   {
-    "id": 80,
+    "id": "080",
     "category": "others",
     "sub_category": "Watch",
     "type": "Women",
@@ -1458,7 +1462,7 @@
     "display": "Analog"
   },
   {
-    "id": 81,
+    "id": "081",
     "category": "others",
     "sub_category": "Watch",
     "type": "Women",

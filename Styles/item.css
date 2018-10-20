@@ -1,0 +1,58 @@
+#single-item {
+  margin-top: 5%;
+  margin-left: -10%;
+}
+#item-pic {
+  width: 30%;
+  height: 40%;
+  margin-right: 18%;
+}
+#image {
+  padding-top: 10%;
+  padding-left: 30%;
+  padding-bottom: 10%;
+  width: auto;
+  height: 380px;
+}
+#item-pic,
+#item-desc {
+  display: inline-block;
+}
+#item-desc {
+  box-shadow: 0 4px 8px 0 #757575;
+  margin-left: 6%;
+  padding-right: 3%;
+  position: absolute;
+  margin-bottom: 3%;
+  margin-right: 3%;
+}
+#description {
+  padding-left: 5%;
+  padding-bottom: 10%;
+  padding-right: 10%;
+  width: fit-content;
+}
+table {
+  margin-top: 8%;
+  margin-left: 5%;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  font-size: 20px;
+  text-align: left;
+  padding: 8px;
+}
+#buttons {
+  margin-left: 10%;
+  padding-bottom: 7.5%;
+  margin-right: 10%;
+}
+#buttons input{
+  margin-bottom: 3%;
+  width: 35%;
+  font-size: 20px;
+}

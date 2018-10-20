@@ -1,8 +1,11 @@
 var allProducts = []; //array stores all the data
-var displayProduct = [];
 var categories = new Set(); //set to store the categories
 var sub_categories = new Map(); //map to map the categories with the sub-categories
 var currentUser = localStorage.getItem("present-user"); //stores the name of the user logged-in
+var cart = [];
+
+if(localStorage.getItem('cart')!=null)
+    cart.push(JSON.parse(localStorage.getItem('cart')));
 
 /*
     @author : Dipmalya Sen
@@ -20,7 +23,7 @@ var bringProducts = function() {
       currentUser.indexOf(" ")
     );
     setCategories();
-    displayItems();
+    bringItem();
   });
 };
 
@@ -59,67 +62,50 @@ var setCategories = function() {
     }
   }
 
-  //for category-wise filter
   for (var p of sub_categories) {
     document.getElementById(p[0]).addEventListener("click", e => {
       localStorage.setItem("category", e.target.id);
-      location.reload();
+      window.location = "./shop.html";
     });
   }
 };
 
-/*
-    @author : Dipmalya Sen
-    @desc : This function toggles the collapsable filter menu
-*/
-var displayFilter = function() {
-  if ($("#sub-panel").css("display") == "none")
-    $("#sub-panel").css("display", "block");
-  else $("#sub-panel").css("display", "none");
-};
-
-/*
-    @author : Dipmalya Sen
-    @desc : This function dynamically fetches the data from the json file,
-            adds the image and name
-*/
-var displayItems = function() {
-  for (var p of allProducts) {
-    if (p.sub_category == localStorage.getItem("category")) {
-      displayProduct.push(p);
+var bringItem = function() {
+  var selected_item = localStorage.getItem("select-item");
+  for (var item of allProducts) {
+    if (item.id == selected_item) {
+      document.getElementById("image").setAttribute("src", item.image[0]);
+      var table = document.getElementById("item-table");
+      var keys = Object.keys(item);
+      var values = Object.values(item);
+      for (var num = 4; num < keys.length; num++) {
+        if (keys[num] == "image") continue;
+        if(keys[num] == "price"){
+            values[num] = "Rs. "+values[num];
+        }
+        var tRow = document.createElement("tr");
+        var tHead = document.createElement("th");
+        var tData = document.createElement("td");
+        tHead.innerHTML = (keys[num] + "").toUpperCase();
+        tData.innerHTML = values[num];
+        tRow.appendChild(tHead);
+        tRow.appendChild(tData);
+        table.appendChild(tRow);
+      }
     }
   }
-
-  for (var product of displayProduct) {
-    var item = document.createElement("div");
-    item.setAttribute("id", product.id);
-    item.setAttribute("class", "item");
-    document.getElementById("display").appendChild(item);
-
-    var image = document.createElement("img");
-    image.setAttribute("src", product.image[0]);
-    image.setAttribute("class", "item-image");
-    image.setAttribute("id", "item-image" + product.id);
-    document.getElementById(product.id).appendChild(image);
-
-    var name_div = document.createElement("div");
-    name_div.setAttribute("id", "item" + product.id);
-    name_div.setAttribute("class", "item-details");
-    document.getElementById(product.id).appendChild(name_div);
-
-    var itemName = document.createElement("h4");
-    itemName.setAttribute("id", product.name + product.id);
-    document.getElementById("item" + product.id).appendChild(itemName);
-    document.getElementById(product.name + product.id).innerHTML =
-      product.name + "<br/>" + "Rs. " + product.price;
-  }
-
-  for (var p of displayProduct) {
-    document.getElementById(p.id).addEventListener("click", e => {
-      var tempId = e.target.id;
-      tempId = tempId.slice(-3);
-      localStorage.setItem("select-item", tempId);
-      window.location = "./item.html";
-    });
-  }
 };
+
+
+var addToCart = function(){
+    var selected_item = localStorage.getItem("select-item");
+    for(var product of allProducts){
+        if(product.id == selected_item){
+            cart.push(product);
+            break;
+        }
+    }
+    var cart_text = JSON.stringify(cart);
+    localStorage.setItem('cart',cart_text);
+    alert('Item successfully added to cart!');
+}

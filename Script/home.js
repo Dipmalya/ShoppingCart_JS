@@ -56,4 +56,11 @@ var setCategories = function() {
       }
     }
   }
+
+  for (var p of sub_categories) {
+    document.getElementById(p[0]).addEventListener("click", e => {
+      localStorage.setItem("category", e.target.id);
+      window.location = "./shop.html";
+    });
+  }
 };
