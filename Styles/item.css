@@ -87,6 +87,16 @@ th {
     margin-top: 8%;
     margin-left: 18%;
   }
+  #cart-table {
+    font-size: 16px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  #cart-table td {
+    text-align: left;
+    padding: 8px;
+  }
   .pad-btn {
     padding-top: 25%;
     margin-top: 25%;
@@ -109,7 +119,7 @@ th {
     padding-left: 15%;
   }
   .cart-desc {
-    margin-left: 15%;
+    margin-left: 5%;
     margin-top: 3%;
   }
 
@@ -119,7 +129,7 @@ th {
     margin-left: 2%;
     width: 20%;
   }
-  #qty {
+  .qty {
     width: 25%;
     margin-left: 10%;
   }
@@ -190,7 +200,7 @@ th {
     margin-left: 5%;
     width: 20%;
   }
-  #qty {
+  .qty {
     width: 25%;
     margin-left: 15%;
   }

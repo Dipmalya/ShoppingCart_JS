@@ -2,6 +2,7 @@ var allProducts = []; //array stores all the data
 var categories = new Set(); //set to store the categories
 var sub_categories = new Map(); //map to map the categories with the sub-categories
 var currentUser = localStorage.getItem("present-user"); //stores the name of the user logged-in
+var total = 0;
 
 /*
     @author : Dipmalya Sen
@@ -86,8 +87,8 @@ var fillCart = function() {
   }
   var i = 0;
   for (var count of cart_set.keys()) {
-    //console.log(cart_count.has(count[0]));
-    console.log(count);
+    var name = "abc";
+    var price = "abc";
     var cartItem = document.createElement("div");
     cartItem.setAttribute("id", "cart-item" + i);
     cartItem.setAttribute("class", "cart-item");
@@ -97,12 +98,6 @@ var fillCart = function() {
     var image = document.createElement("img");
     image.setAttribute("id", "cartImage");
 
-    for (var product of allProducts) {
-      if (product.id == count) {
-        image.setAttribute("src", product.image[0]);
-        break;
-      }
-    }
     document.getElementById("cart-list").appendChild(cartItem);
     document.getElementById("cart-item" + i).appendChild(cartImage);
     document.getElementById("cart-image" + i).appendChild(image);
@@ -112,7 +107,50 @@ var fillCart = function() {
     cartDesc.setAttribute("class", "cart-desc");
     document.getElementById("cart-item" + i).appendChild(cartDesc);
     document.getElementById("cart-desc" + i).innerHTML =
-      "<table id='cart-table'><tr><th>Name</th><td>Redmi Note 5 Pro</td></tr><tr><th>Price</th><td>Rs. 12599</td></tr><tr><th>Quantity</th><td><input type='number' id='qty' min='1' value='1'/></td></tr></table><input type='button' class='btn btn-danger' id='remove' value='Remove from Cart' onclick='removeCart()'/>";
+      "<table id='cart-table'><tr><th>Name</th><td id='cartItem-name" +
+      i +
+      "'></td></tr><tr><th>Price</th><td id='cartItem-price" +
+      i +
+      "'></td></tr><tr><th>Quantity</th><td><input type='number' class='qty' id='qty" +
+      i +
+      "' min='1' value='1' onchange='qtyChange(id)'/></td></tr><tr><th>Total</th><td id='total-item" +
+      i +
+      "'></td></tr></table><input type='button' class='btn btn-danger' id='remove' value='Remove from Cart' onclick='removeCart()'/>";
+
+    for (var product of allProducts) {
+      if (product.id == count) {
+        image.setAttribute("src", product.image[0]);
+        name = product.name;
+        price = product.price;
+        total += eval(price);
+        document.getElementById("total").innerHTML = total;
+        console.log(name, price);
+        document.getElementById("cartItem-name" + i).innerHTML = name;
+        document.getElementById("cartItem-price" + i).innerHTML =
+          "Rs. " + price;
+        document.getElementById("total-item" + i).innerHTML = "Rs. " + price;
+        break;
+      }
+    }
     i++;
   }
+};
+
+var qtyChange = function(e) {
+  var id = e.slice(-1);
+  var qty = document.getElementById("qty" + id).value;
+  var init_total = document.getElementById("total-item" + id).innerHTML;
+  init_total = eval(init_total.slice(4));
+  var price = document.getElementById("cartItem-price" + id).innerHTML;
+  var price = price.slice(4);
+
+  document.getElementById("total-item" + id).innerHTML =
+    "Rs. " + eval(qty) * eval(price);
+
+  var change =
+    eval(document.getElementById("total-item" + id).innerHTML.slice(4)) -
+    init_total;
+  console.log(document.getElementById("total").innerHTML);
+  document.getElementById("total").innerHTML =
+    eval(document.getElementById("total").innerHTML) + eval(change);
 };
