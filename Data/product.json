@@ -123,6 +123,7 @@
     "sub_category": "furniture",
     "brand": "RoyalOak",
     "name": "RoyalOak Beat Metal Coffee Table",
+    "type":"Table",
     "price": "4699",
     "Material": "Carbon Steel Metal",
     "image": [
@@ -134,6 +135,7 @@
     "id": "009",
     "category": "others",
     "sub_category": "sports",
+    "brand":"Kookaburra",
     "sports": "cricket",
     "name": "Kookaburra Kahuna Prodigy 100 Full Size Cricket Bat",
     "price": "690",
@@ -142,7 +144,7 @@
       "https://rukminim1.flixcart.com/image/832/832/jj7givk0/bat/a/h/q/1200-bat-short-handle-3333-kookaburra-original-imaf3ehd2mkqf7ky.jpeg?q=70"
     ],
     "Material": "Kashmir willow",
-    "Ideal For": "Men (above 12)"
+    "Ideal For": "Men"
   },
   {
     "id": "010",
@@ -961,7 +963,7 @@
       "https://rukminim1.flixcart.com/image/832/832/camera/j/s/u/canon-eos-1300d-dslr-original-imaeh33e9ytzjrzu.jpeg?q=70"
     ],
     "type": "DSLR",
-    "effective_pixel": "18MP",
+    "pixel": "18MP",
     "shutter_speed": "1/4000 sec",
     "video": "5184 x 3456"
   },
@@ -978,7 +980,7 @@
       "https://rukminim1.flixcart.com/image/832/832/jmthle80-1/dslr-camera/n/r/n/eos-eos-3000d-canon-original-imaf9n6fqhmgt4cv.jpeg?q=70"
     ],
     "type": "DSLR",
-    "effective_pixel": "18MP",
+    "pixel": "18MP",
     "shutter_speed": "1/4000 sec",
     "video": "1920 x 1080"
   },
@@ -995,7 +997,7 @@
       "https://rukminim1.flixcart.com/image/832/832/j9yixe80/dslr-camera/t/m/d/eos-200d-eos-200d-canon-original-imaezhnkwn7mzxxz.jpeg?q=70"
     ],
     "type": "DSLR",
-    "effective_pixel": "24.2MP",
+    "pixel": "24.2MP",
     "shutter_speed": "1/4000 sec",
     "video": "6000 x 4000"
   },
@@ -1012,7 +1014,7 @@
       "https://rukminim1.flixcart.com/image/832/832/jgwkzgw0/dslr-camera/3/d/h/digital-camera-d3400-d3400-nikon-original-imaf5fherxqzgknk.jpeg?q=70"
     ],
     "type": "DSLR",
-    "effective_pixel": "24.2MP",
+    "pixel": "24.2MP",
     "shutter_speed": "1/4000 sec",
     "video": "1920 x 1080"
   },
@@ -1027,7 +1029,7 @@
       "https://rukminim1.flixcart.com/image/832/832/dslr-camera/t/h/g/d5600-nikon-d5600-original-imaezvbrhkgzyywz.jpeg?q=70"
     ],
     "type": "DSLR",
-    "effective_pixel": "24.2MP",
+    "pixel": "24.2MP",
     "shutter_speed": "1/4000-30 sec",
     "video": "1920 x 1080"
   },
@@ -1125,6 +1127,7 @@
     "id": "057",
     "category": "fashion",
     "sub_category": "Men",
+    "brand": "Levis",
     "type": "T-Shirt",
     "name": "Levi's Solid Men's V-neck",
     "price": "628",
@@ -1306,7 +1309,7 @@
       "https://rukminim1.flixcart.com/image/832/832/jgqv8280/watch/j/c/z/1771sm03-titan-original-imaf4wn8vvkhh6wb.jpeg?q=70",
       "https://rukminim1.flixcart.com/image/832/832/jgqv8280/watch/j/c/z/1771sm03-titan-original-imaf4wn89xgzparp.jpeg?q=70"
     ],
-    "display": "Analog"
+    "Display": "Analog"
   },
   {
     "id": "070",
@@ -1320,7 +1323,7 @@
       "https://rukminim1.flixcart.com/image/832/832/j9k8ivk0/watch/d/a/n/1730sl02-titan-original-imaezbuhkdkagbde.jpeg?q=70",
       "https://rukminim1.flixcart.com/image/832/832/watch/d/a/n/1730sl02-titan-original-imaeprdgptgnnmdv.jpeg?q=70"
     ],
-    "display": "Analog"
+    "Screen": "Analog"
   },
   {
     "id": "071",
@@ -1333,7 +1336,7 @@
     "image": [
       "https://rukminim1.flixcart.com/image/832/832/watch/k/p/m/nf1648ym02-titan-original-imae8dtnwpwr4ctb.jpeg?q=70"
     ],
-    "display": "Analog"
+    "Screen": "Analog"
   },
   {
     "id": "072",
@@ -1347,7 +1350,7 @@
       "https://rukminim1.flixcart.com/image/832/832/watch/k/e/6/1639sm03-titan-original-imaedbtj5gegwxdg.jpeg?q=70",
       "https://rukminim1.flixcart.com/image/832/832/watch/k/e/6/1639sm03-titan-original-imaedbtjgmrxy8mp.jpeg?q=70"
     ],
-    "display": "Analog"
+    "Screen": "Analog"
   },
   {
     "id": "073",
@@ -1361,7 +1364,7 @@
       "https://rukminim1.flixcart.com/image/832/832/jhjg13k0/watch/a/g/g/9151sm02-titan-original-imaf5jh43jybqdzh.jpeg?q=70",
       "https://rukminim1.flixcart.com/image/832/832/jhjg13k0/watch/a/g/g/9151sm02-titan-original-imaf5jh4usg8hgqz.jpeg?q=70"
     ],
-    "display": "Analog"
+    "Screen": "Analog"
   },
   {
     "id": "074",
@@ -1375,7 +1378,7 @@
       "https://rukminim1.flixcart.com/image/832/832/jerf7gw0/watch/g/e/8/38045pp03-fastrack-original-imaf3dgq7h5zzhp8.jpeg?q=70",
       "https://rukminim1.flixcart.com/image/832/832/jerf7gw0/watch/g/e/8/38045pp03-fastrack-original-imaf3dgqthxcpspx.jpeg?q=70"
     ],
-    "display": "Digital"
+    "Screen": "Digital"
   },
   {
     "id": "075",
@@ -1389,7 +1392,7 @@
       "https://rukminim1.flixcart.com/image/832/832/jfvfjbk0/watch/q/g/p/38035sl03-fastrack-original-imaf48zrk3qh6rmr.jpeg?q=70",
       "https://rukminim1.flixcart.com/image/832/832/jfvfjbk0/watch/q/g/p/38035sl03-fastrack-original-imaf48zgp48sg9gn.jpeg?q=70"
     ],
-    "display": "Digital"
+    "Screen": "Digital"
   },
   {
     "id": "076",
@@ -1403,7 +1406,7 @@
       "https://rukminim1.flixcart.com/image/832/832/jmxrwy80/watch/c/x/x/38044pp03-fastrack-original-imaf9qhecbmzkf8z.jpeg?q=70",
       "https://rukminim1.flixcart.com/image/832/832/jmxrwy80/watch/c/x/x/38044pp03-fastrack-original-imaf9qhebfq7qjzz.jpeg?q=70"
     ],
-    "display": "Analog"
+    "Screen": "Analog"
   },
   {
     "id": "077",
@@ -1417,7 +1420,7 @@
       "https://rukminim1.flixcart.com/image/832/832/j8ndea80/watch/2/5/g/a902-casio-original-imaeymggabhz2aqr.jpeg?q=70",
       "https://rukminim1.flixcart.com/image/832/832/j8rnpu80/watch/2/5/g/a902-casio-original-imaeymgyrqkzk73n.jpeg?q=70"
     ],
-    "display": "Analog"
+    "Screen": "Analog"
   },
   {
     "id": "078",
@@ -1431,7 +1434,7 @@
       "https://rukminim1.flixcart.com/image/832/832/watch/a/z/y/2455bm01-titan-original-imadnbyu77qz9yce.jpeg?q=70",
       "https://rukminim1.flixcart.com/image/832/832/watch/a/z/y/2455bm01-titan-original-imadnbyrb7hajq2y.jpeg?q=70"
     ],
-    "display": "Analog"
+    "Screen": "Analog"
   },
   {
     "id": "079",
@@ -1445,7 +1448,7 @@
       "https://rukminim1.flixcart.com/image/832/832/jfea93k0/watch/y/f/c/2594bm01-titan-original-imaf3nmzheh2emnk.jpeg?q=70",
       "https://rukminim1.flixcart.com/image/832/832/jfea93k0/watch/y/f/c/2594bm01-titan-original-imaf3vgansyfm8f9.jpeg?q=70"
     ],
-    "display": "Analog"
+    "Screen": "Analog"
   },
   {
     "id": "080",
@@ -1459,7 +1462,7 @@
       "https://rukminim1.flixcart.com/image/832/832/jdj4k280/watch/t/v/b/bq3182-fossil-original-imaf2bucvwrbfepz.jpeg?q=70",
       "https://rukminim1.flixcart.com/image/832/832/jdhp47k0/watch/t/v/b/bq3182-fossil-original-imaf2bucf6rcg7tk.jpeg?q=70"
     ],
-    "display": "Analog"
+    "Screen": "Analog"
   },
   {
     "id": "081",
@@ -1473,6 +1476,6 @@
       "https://rukminim1.flixcart.com/image/832/832/jiklh8w0/watch/x/g/4/68007pp01-fastrack-original-imaf6cffjkmtzahb.jpeg?q=70",
       "https://rukminim1.flixcart.com/image/832/832/jiklh8w0/watch/x/g/4/68007pp01-fastrack-original-imaf6cffzyhxu6ga.jpeg?q=70"
     ],
-    "display": "Analog"
+    "Screen": "Analog"
   }
 ]
