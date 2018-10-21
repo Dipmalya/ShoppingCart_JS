@@ -1,4 +1,5 @@
-#single-item {
+#single-item,
+#cart-list {
   margin-top: 5%;
   margin-left: -10%;
 }
@@ -51,8 +52,150 @@ th {
   padding-bottom: 7.5%;
   margin-right: 10%;
 }
-#buttons input{
+#buttons input {
   margin-bottom: 3%;
   width: 35%;
   font-size: 20px;
+}
+
+@media screen and (min-width: 995px) {
+  .cart-item {
+    box-shadow: 0 4px 8px 0 #757575;
+    margin-left: 6%;
+    padding-right: 3%;
+    margin-bottom: 3%;
+    margin-right: 3%;
+  }
+  #check-out {
+    box-shadow: 0 4px 8px 0 #757575;
+    margin-left: -3%;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    display: block;
+    width: inherit;
+  }
+  #buy,
+  #go-back {
+    width: fit-content;
+    margin-bottom: 5%;
+  }
+  #go-back {
+    margin-top: 6%;
+    margin-left: 12%;
+  }
+  #buy {
+    margin-top: 8%;
+    margin-left: 18%;
+  }
+  .pad-btn {
+    padding-top: 25%;
+    margin-top: 25%;
+    padding-bottom: 5%;
+  }
+  #pay,
+  th {
+    padding-left: 10%;
+    padding-top: 2%;
+  }
+  #cart-list {
+    margin-top: 5%;
+  }
+  #cartImage {
+    height: 225px;
+    width: 185px;
+  }
+  .cart-image {
+    padding: 7%;
+    padding-left: 15%;
+  }
+  .cart-desc {
+    margin-left: 15%;
+    margin-top: 3%;
+  }
+
+  #remove {
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 2%;
+    width: 20%;
+  }
+  #qty {
+    width: 25%;
+    margin-left: 10%;
+  }
+  .cart-image,
+  .cart-desc {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 994px) {
+  .cart-item {
+    box-shadow: 0 4px 8px 0 #757575;
+    height: fit-content;
+    margin-left: 5%;
+  }
+  #check-out {
+    box-shadow: 0 4px 8px 0 #757575;
+    margin-left: -3%;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    display: block;
+    width: inherit;
+  }
+  #buy,
+  #go-back {
+    width: fit-content;
+    margin-bottom: 5%;
+  }
+  #go-back {
+    margin-top: 6%;
+    margin-left: 12%;
+  }
+  #buy {
+    margin-top: 8%;
+    margin-left: 18%;
+  }
+  .pad-btn {
+    padding-top: 25%;
+    margin-top: 25%;
+    padding-bottom: 5%;
+  }
+  #pay,
+  th {
+    padding-left: 10%;
+    padding-top: 2%;
+  }
+  #cart-list {
+    width: fit-content;
+    height: 45%;
+    margin-bottom: 5%;
+  }
+  #cartImage {
+    height: 25%;
+    width: 25%;
+  }
+  .cart-image {
+    padding: 7%;
+    margin-left: 35%;
+  }
+  .cart-desc {
+    margin-left: 15%;
+    margin-top: 3%;
+    margin-bottom: 20%;
+  }
+
+  #remove {
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 20%;
+  }
+  #qty {
+    width: 25%;
+    margin-left: 15%;
+  }
+  .cart-image,
+  .cart-desc {
+    display: block;
+  }
 }

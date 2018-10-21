@@ -2,7 +2,6 @@ var allProducts = []; //array stores all the data
 var categories = new Set(); //set to store the categories
 var sub_categories = new Map(); //map to map the categories with the sub-categories
 var currentUser = localStorage.getItem("present-user"); //stores the name of the user logged-in
-var cart = [];
 
 /*
     @author : Dipmalya Sen
@@ -20,12 +19,7 @@ var bringProducts = function() {
       currentUser.indexOf(" ")
     );
     setCategories();
-    bringItem();
-    if (localStorage.getItem("cart") != null) {
-      var cart_items = localStorage.getItem("cart");
-      var cItem = JSON.parse(cart_items);
-      for (var c of cItem) cart.push(c);
-    }
+    fillCart();
   });
 };
 
@@ -72,41 +66,53 @@ var setCategories = function() {
   }
 };
 
-var bringItem = function() {
-  var selected_item = localStorage.getItem("select-item");
-  for (var item of allProducts) {
-    if (item.id == selected_item) {
-      document.getElementById("image").setAttribute("src", item.image[0]);
-      var table = document.getElementById("item-table");
-      var keys = Object.keys(item);
-      var values = Object.values(item);
-      for (var num = 4; num < keys.length; num++) {
-        if (keys[num] == "image") continue;
-        if (keys[num] == "price") {
-          values[num] = "Rs. " + values[num];
-        }
-        var tRow = document.createElement("tr");
-        var tHead = document.createElement("th");
-        var tData = document.createElement("td");
-        tHead.innerHTML = (keys[num] + "").toUpperCase();
-        tData.innerHTML = values[num];
-        tRow.appendChild(tHead);
-        tRow.appendChild(tData);
-        table.appendChild(tRow);
+var fillCart = function() {
+  var cart_items = localStorage.getItem("cart");
+  var cart_count = new Map();
+  var cart_set = new Set();
+  var cItem = JSON.parse(cart_items);
+  if (cItem != null) {
+    for (var c of cItem) {
+      cart_set.add(c.id);
+      var count = 0;
+      for (var d of cItem) {
+        if (c.id == d.id) count++;
+      }
+      cart_count.set(c.id, count);
+      count = 0;
+    }
+    //var cart_map = Array.from(cart_count);
+    //console.log(cart_count);
+  }
+  var i = 0;
+  for (var count of cart_set.keys()) {
+    //console.log(cart_count.has(count[0]));
+    console.log(count);
+    var cartItem = document.createElement("div");
+    cartItem.setAttribute("id", "cart-item" + i);
+    cartItem.setAttribute("class", "cart-item");
+    var cartImage = document.createElement("div");
+    cartImage.setAttribute("id", "cart-image" + i);
+    cartImage.setAttribute("class", "cart-image");
+    var image = document.createElement("img");
+    image.setAttribute("id", "cartImage");
+
+    for (var product of allProducts) {
+      if (product.id == count) {
+        image.setAttribute("src", product.image[0]);
+        break;
       }
     }
-  }
-};
+    document.getElementById("cart-list").appendChild(cartItem);
+    document.getElementById("cart-item" + i).appendChild(cartImage);
+    document.getElementById("cart-image" + i).appendChild(image);
 
-var addToCart = function() {
-  var selected_item = localStorage.getItem("select-item");
-  for (var product of allProducts) {
-    if (product.id == selected_item) {
-      cart.push(product);
-      break;
-    }
+    var cartDesc = document.createElement("div");
+    cartDesc.setAttribute("id", "cart-desc" + i);
+    cartDesc.setAttribute("class", "cart-desc");
+    document.getElementById("cart-item" + i).appendChild(cartDesc);
+    document.getElementById("cart-desc" + i).innerHTML =
+      "<table id='cart-table'><tr><th>Name</th><td>Redmi Note 5 Pro</td></tr><tr><th>Price</th><td>Rs. 12599</td></tr><tr><th>Quantity</th><td><input type='number' id='qty' min='1' value='1'/></td></tr></table><input type='button' class='btn btn-danger' id='remove' value='Remove from Cart' onclick='removeCart()'/>";
+    i++;
   }
-  var cart_text = JSON.stringify(cart);
-  localStorage.setItem("cart", cart_text);
-  alert("Item successfully added to cart!");
 };
