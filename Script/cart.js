@@ -15,6 +15,10 @@ var bringProducts = function() {
   $.get("../Data/product.json", function(product, status) {
     allProducts = product;
 
+    if (localStorage.getItem("present-user") == null) {
+      window.location = "./index.html";
+    }
+
     document.getElementById("user-name").innerHTML = currentUser.substr(
       0,
       currentUser.indexOf(" ")
@@ -71,7 +75,7 @@ var fillCart = function() {
   var cart_items = localStorage.getItem("cart");
   var cart_count = new Map();
   var cart_set = new Set();
-  var cItem = JSON.parse(cart_items);
+  if (cart_items.length > 0) var cItem = JSON.parse(cart_items);
   if (cItem != null) {
     for (var c of cItem) {
       cart_set.add(c.id);
@@ -115,10 +119,13 @@ var fillCart = function() {
       i +
       "' min='1' value='1' onchange='qtyChange(id)'/></td></tr><tr><th>Total</th><td id='total-item" +
       i +
-      "'></td></tr></table><input type='button' class='btn btn-danger' id='remove' value='Remove from Cart' onclick='removeCart()'/>";
+      "'></td></tr></table><input type='button' class='btn btn-danger' id='remove' value='Remove from Cart' onclick='removeFromCart(" +
+      count +
+      ")'/>";
 
     for (var product of allProducts) {
       if (product.id == count) {
+        // removeFromCart.apply(count);
         image.setAttribute("src", product.image[0]);
         name = product.name;
         price = product.price;
@@ -153,4 +160,36 @@ var qtyChange = function(e) {
   console.log(document.getElementById("total").innerHTML);
   document.getElementById("total").innerHTML =
     eval(document.getElementById("total").innerHTML) + eval(change);
+};
+
+var removeFromCart = function(index) {
+  var id = index + "";
+  if (id.length == 1) id = "00" + id;
+  else if (id.length == 2) id = "0" + id;
+  var cart_i = localStorage.getItem("cart");
+  cItems = JSON.parse(cart_i);
+  for (var c = 0; c < cItems.length; c++) {
+    if (cItems[c].id == id) {
+      cItems.splice(c, 1);
+    }
+  }
+  var cart = JSON.stringify(cItems);
+  console.log(cart);
+  localStorage.setItem("cart", cart);
+  window.location = "./cart.html";
+};
+
+var goBack = function() {
+  window.location = "./home.html";
+};
+
+var buyNow = function() {
+  alert("Thank you shopping with us!!");
+  localStorage.removeItem('cart');
+  window.location = "./home.html";
+};
+
+var logOut = function() {
+  localStorage.removeItem("present-user");
+  window.location = "./index.html";
 };

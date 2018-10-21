@@ -14,6 +14,10 @@ var bringProducts = function() {
   $.get("../Data/product.json", function(product, status) {
     allProducts = product;
 
+    if (localStorage.getItem("present-user") == null) {
+      window.location = "./index.html";
+    }
+
     document.getElementById("user-name").innerHTML = currentUser.substr(
       0,
       currentUser.indexOf(" ")
@@ -63,4 +67,9 @@ var setCategories = function() {
       window.location = "./shop.html";
     });
   }
+};
+
+var logOut = function() {
+  localStorage.removeItem("present-user");
+  window.location = "./index.html";
 };

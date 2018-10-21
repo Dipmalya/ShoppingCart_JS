@@ -15,6 +15,10 @@ var bringProducts = function() {
   $.get("../Data/product.json", function(product, status) {
     allProducts = product;
 
+    if (localStorage.getItem("present-user") == null) {
+      window.location = "./index.html";
+    }
+
     document.getElementById("user-name").innerHTML = currentUser.substr(
       0,
       currentUser.indexOf(" ")
@@ -109,4 +113,9 @@ var addToCart = function() {
   var cart_text = JSON.stringify(cart);
   localStorage.setItem("cart", cart_text);
   alert("Item successfully added to cart!");
+};
+
+var logOut = function() {
+  localStorage.removeItem("present-user");
+  window.location = "./index.html";
 };
