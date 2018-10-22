@@ -15,17 +15,19 @@ var bringProducts = function() {
   $.get("../Data/product.json", function(product, status) {
     allProducts = product;
 
+    //checking whether the user is logged in or not.. if not then redirecting him to the first page..
     if (localStorage.getItem("present-user") == null) {
       window.location = "./index.html";
     }
 
+    //displaying only the first name in the top section..
     document.getElementById("user-name").innerHTML = currentUser.substr(
       0,
       currentUser.indexOf(" ")
     );
-    setCategories();
-    bringFilter();
-    displayItems();
+    setCategories(); //calling the method to set the top nav-bar based on the data
+    bringFilter(); //calling the method to bring the filter sub-menu based on selected category
+    displayItems(); //calling the method to display the items based on the selected category
   });
 };
 
@@ -41,7 +43,6 @@ var setCategories = function() {
   categories = Array.from(categories);
 
   sub_categories = Array.from(sub_categories);
-  //console.log(sub_categories[0][0]);
   var ul = document.getElementById("navTabs");
 
   //creating the nav bar tabs
@@ -90,18 +91,21 @@ var displayFilter = function() {
             adds the image and name
 */
 var displayItems = function() {
+  //displaying only the products based on the category selected
   for (var p of allProducts) {
     if (p.sub_category == localStorage.getItem("category")) {
       displayProduct.push(p);
     }
   }
 
+  //dynamically creating a div for each item
   for (var product of displayProduct) {
     var item = document.createElement("div");
     item.setAttribute("id", product.id);
     item.setAttribute("class", "item");
     document.getElementById("display").appendChild(item);
 
+    //item image set based on each product id
     var image = document.createElement("img");
     image.setAttribute("src", product.image[0]);
     image.setAttribute("class", "item-image");
@@ -120,6 +124,7 @@ var displayItems = function() {
       product.name + "<br/>" + "Rs. " + product.price;
   }
 
+  //adding onclick listener on every items so that the item clicked gets displayed
   for (var p of displayProduct) {
     document.getElementById(p.id).addEventListener("click", e => {
       var tempId = e.target.id;
@@ -130,16 +135,18 @@ var displayItems = function() {
   }
 };
 
+/*
+    @author : Dipmalya Sen
+    @desc : This function closes the session of the logged in user
+*/
 var logOut = function() {
   localStorage.removeItem("present-user");
   window.location = "./index.html";
 };
 
-// var Mobile = ["brand", "price", "ram", "storage", "rear-camera", "fron-camera"];
-// var Laptop = ["brand", "price", "ram", "storage", "processor", "os"];
-// var Camera = ["brand", "price", "type", "pixel"];
+//The element object defines which values would be in filter for each category
 var elements = {
-  Mobile: ["brand", "price", "ram", "storage", "rear-camera", "fron-camera"],
+  Mobile: ["brand", "price", "ram", "storage", "rear-camera", "front-camera"],
   Laptop: ["brand", "price", "ram", "storage", "processor", "os"],
   Camera: ["brand", "price", "type", "pixel"],
   Men: ["brand", "price", "type", "color"],
@@ -149,17 +156,52 @@ var elements = {
   Watch: ["brand", "type", "price", "Screen"]
 };
 
+var uniqueBrands = new Set(); //This set is used for storing unique filter values for each category
+
+/*
+    @author : Dipmalya Sen
+    @desc : This function dynamically fetches the filter sub-menu from the data
+*/
 var bringFilter = function() {
   var options = elements[localStorage.getItem("category") + ""];
+
   for (var num of options) {
+    uniqueBrands.clear();
+    for (var p of allProducts) {
+      if (p.sub_category == localStorage.getItem("category")) {
+        uniqueBrands.add(p[num + ""]);
+      }
+    }
+
     var filters = document.createElement("li");
     filters.setAttribute("id", num);
     filters.innerHTML = num.toUpperCase();
     filters.addEventListener("click", displayFilter);
     document.getElementById("panel-tabs").appendChild(filters);
-    // var sub_panel = document.createElement("div");
-    // sub_panel.setAttribute("id", "sub-panel");
-    // document.getElementById("panel-tabs").appendChild(sub_panel);
-    // document.getElementById('sub-panel').innerHTML = "<input type='checkbox' name='RAM' value='2gb'> 2GB"
+
+    var sub_panel = document.createElement("div");
+    sub_panel.setAttribute("id", "sub-panel" + num);
+    sub_panel.setAttribute("class", "sub-panel");
+    document.getElementById("panel-tabs").appendChild(sub_panel);
+
+    for (var u of uniqueBrands) {
+      if (num != "price") {
+        var prehtml = document.getElementById("sub-panel" + num).innerHTML;
+        document.getElementById("sub-panel" + num).innerHTML =
+          prehtml +
+          "<input type='checkbox' name='" +
+          num +
+          "' value='" +
+          u +
+          "'> " +
+          u +
+          "<br/>";
+      }
+
+      if (num == "price") {
+        document.getElementById("sub-panel" + num).innerHTML =
+          "<input type='range' name='" + num + "' min='500' max='100000'>";
+      }
+    }
   }
 };

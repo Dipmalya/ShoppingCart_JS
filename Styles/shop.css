@@ -137,9 +137,13 @@ html {
   margin-bottom: 1.5%;
   cursor: pointer;
 }
+#panel-tabs > div {
+  margin-left: 20%;
+}
 #sub-panel {
   list-style-type: none;
   margin-left: 35%;
+  /* padding-left: 5%; */
   /* background-color: #e0e0e0; */
   display: none;
 }

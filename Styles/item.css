@@ -47,10 +47,17 @@ th {
   text-align: left;
   padding: 8px;
 }
+th{
+  padding-right: 5%;
+}
+td {
+  padding-left: 12%;
+}
 #buttons {
   margin-left: 10%;
   padding-bottom: 7.5%;
   margin-right: 10%;
+  /* width: fit-content; */
 }
 #buttons input {
   margin-bottom: 3%;

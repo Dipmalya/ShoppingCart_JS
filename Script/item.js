@@ -76,6 +76,10 @@ var setCategories = function() {
   }
 };
 
+/*
+    @author : Dipmalya Sen
+    @desc : When user clicks on any individual item that item will be displayed..
+*/
 var bringItem = function() {
   var selected_item = localStorage.getItem("select-item");
   for (var item of allProducts) {
@@ -102,6 +106,12 @@ var bringItem = function() {
   }
 };
 
+/*
+    @author : Dipmalya Sen
+    @desc : When user clicks on add to cart button on item page this method is called..
+            This method uses local storage to store items.
+            Pushes each object to cart array and then saves it
+*/
 var addToCart = function() {
   var selected_item = localStorage.getItem("select-item");
   for (var product of allProducts) {
@@ -115,7 +125,20 @@ var addToCart = function() {
   alert("Item successfully added to cart!");
 };
 
+/*
+    @author : Dipmalya Sen
+    @desc : When user clicks on log out, the session gets closed and the user is redirected to the index page
+*/
 var logOut = function() {
   localStorage.removeItem("present-user");
   window.location = "./index.html";
+};
+
+/*
+    @author : Dipmalya Sen
+    @desc : When user clicks on buy now button on item page this method is called
+*/
+var buyNow = function() {
+  alert("Thank you shopping with us!!");
+  window.location = "./home.html";
 };
