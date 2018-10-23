@@ -130,3 +130,12 @@ html {
   color: red;
   margin-left: 20%;
 }
+.center-div{
+  /* margin-left: 42.5%; */
+  margin-top:10%;
+  display: block;
+  text-align: center;
+}
+hr{
+  width: 75%;
+}
