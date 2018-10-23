@@ -210,8 +210,6 @@ var bringFilter = function() {
 };
 
 var applyFilter = function(e) {
-  //var a = document.getElementsByName(val + "");
-  //console.log(e.id);
   $("#display").empty();
   var i = document.getElementsByName(e.id);
   for (var j = 0; j < i.length; j++) {
@@ -219,7 +217,6 @@ var applyFilter = function(e) {
       //i[j].value == value
       //i[j].name ==  category
       allProducts = [];
-      //displayProduct = [];
       for (var a of displayProduct) {
         if (a[i[j].name + ""] == i[j].value) {
           allProducts.push(a);
