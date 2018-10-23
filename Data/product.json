@@ -108,6 +108,7 @@
     "category": "fashion",
     "sub_category": "Women",
     "type": "Casual Top",
+    "brand": "Senhzim",
     "name": "Rare Casual Bell Sleeve Top",
     "price": "517",
     "image": [
@@ -1182,7 +1183,7 @@
     "category": "fashion",
     "sub_category": "Men",
     "type": "T-Shirt",
-    "brand":"Maniac",
+    "brand": "Maniac",
     "name": "Maniac Solid Men's Round Neck",
     "price": "1334",
     "image": [
@@ -1214,6 +1215,7 @@
     "category": "fashion",
     "sub_category": "Women",
     "type": "Saree",
+    "brand": "Bolly",
     "name": "Bolly Lounge Embroidered Fashion Velvet Saree",
     "price": "499",
     "image": [
@@ -1228,6 +1230,7 @@
     "category": "fashion",
     "sub_category": "Women",
     "type": "Saree",
+    "brand": "Anand",
     "name": "Anand Sarees Printed Daily Wear Georgette Saree",
     "price": "599",
     "image": [
@@ -1242,6 +1245,7 @@
     "category": "fashion",
     "sub_category": "Women",
     "type": "Saree",
+    "brand": "Kara",
     "name": "Kara Printed Daily Wear Cotton Saree",
     "price": "749",
     "image": [
@@ -1256,6 +1260,7 @@
     "category": "fashion",
     "sub_category": "Women",
     "type": "Casual Top",
+    "brand": "Anand",
     "name": "Rare Casual 3/4th Sleeve Solid Women's Pink Top",
     "price": "517",
     "image": [
@@ -1270,6 +1275,7 @@
     "category": "fashion",
     "sub_category": "Women",
     "type": "Casual Top",
+    "brand": "Kara",
     "name": "Krapal Party 3/4th Sleeve Printed Women's Black Top",
     "price": "292",
     "image": [
@@ -1284,6 +1290,7 @@
     "category": "fashion",
     "sub_category": "Women",
     "type": "Casual Top",
+    "brand": "Senhzim",
     "name": "Rare Casual Half Sleeve, Cold Shoulder Embroidered Women's Black Top",
     "price": "549",
     "image": [
@@ -1298,6 +1305,7 @@
     "category": "fashion",
     "sub_category": "Women",
     "type": "Casual Top",
+    "brand": "Anand",
     "name": "Oomph! Casual Butterfly Sleeve Solid Women's Pink Top",
     "price": "299",
     "image": [
