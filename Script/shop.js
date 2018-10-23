@@ -166,6 +166,7 @@ var bringFilter = function() {
   var options = elements[localStorage.getItem("category") + ""];
 
   for (var num of options) {
+    //applyFilter(num);
     uniqueBrands.clear();
     for (var p of allProducts) {
       if (p.sub_category == localStorage.getItem("category")) {
@@ -193,15 +194,40 @@ var bringFilter = function() {
           num +
           "' value='" +
           u +
-          "'> " +
+          "' onchange='applyFilter(" +
+          num +
+          ")'> " +
           u +
           "<br/>";
       }
 
       if (num == "price") {
         document.getElementById("sub-panel" + num).innerHTML =
-          "<input type='range' name='" + num + "' min='500' max='100000'>";
+          "<input type='range' id='" + num + "' min='500' max='100000'>";
       }
+    }
+  }
+};
+
+var applyFilter = function(e) {
+  //var a = document.getElementsByName(val + "");
+  //console.log(e.id);
+  $("#display").empty();
+  var i = document.getElementsByName(e.id);
+  for (var j = 0; j < i.length; j++) {
+    if (i[j].checked) {
+      //i[j].value == value
+      //i[j].name ==  category
+      allProducts = [];
+      //displayProduct = [];
+      for (var a of displayProduct) {
+        if (a[i[j].name + ""] == i[j].value) {
+          allProducts.push(a);
+        }
+      }
+      displayProduct = [];
+      console.log(allProducts);
+      displayItems();
     }
   }
 };
