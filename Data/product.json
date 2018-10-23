@@ -123,7 +123,7 @@
     "sub_category": "furniture",
     "brand": "RoyalOak",
     "name": "RoyalOak Beat Metal Coffee Table",
-    "type":"Table",
+    "type": "Table",
     "price": "4699",
     "Material": "Carbon Steel Metal",
     "image": [
@@ -135,7 +135,7 @@
     "id": "009",
     "category": "others",
     "sub_category": "sports",
-    "brand":"Kookaburra",
+    "brand": "Kookaburra",
     "sports": "cricket",
     "name": "Kookaburra Kahuna Prodigy 100 Full Size Cricket Bat",
     "price": "690",
@@ -1038,6 +1038,7 @@
     "category": "fashion",
     "sub_category": "Men",
     "type": "Shirt",
+    "brand": "Peter England",
     "name": "Peter England Men Solid Formal",
     "price": "1519",
     "image": [
@@ -1053,6 +1054,7 @@
     "category": "fashion",
     "sub_category": "Men",
     "type": "Shirt",
+    "brand": "Dennis",
     "name": "Dennis Lingo Men's Solid Casual",
     "price": "549",
     "image": [
@@ -1068,6 +1070,7 @@
     "category": "fashion",
     "sub_category": "Men",
     "type": "Shirt",
+    "brand": "Anfold",
     "name": "5TH ANFOLD Men Solid Casual",
     "price": "587",
     "image": [
@@ -1083,6 +1086,7 @@
     "category": "fashion",
     "sub_category": "Men",
     "type": "Shirt",
+    "brand": "US Polo",
     "name": "U.S. Polo Assn Men's Solid Casual",
     "price": "809",
     "image": [
@@ -1098,6 +1102,7 @@
     "category": "fashion",
     "sub_category": "Men",
     "type": "Shirt",
+    "brand": "CMS",
     "name": "CMS CLOTHINGS Men Solid Casual",
     "price": "521",
     "image": [
@@ -1113,6 +1118,7 @@
     "category": "fashion",
     "sub_category": "Men",
     "type": "T-Shirt",
+    "brand": "Levis",
     "name": "Levi's Printed Men Polo Neck",
     "price": "1132",
     "image": [
@@ -1144,6 +1150,7 @@
     "category": "fashion",
     "sub_category": "Men",
     "type": "T-Shirt",
+    "brand": "US Polo",
     "name": "U.S. Polo Assn Solid Men's Polo Neck",
     "price": "719",
     "image": [
@@ -1159,6 +1166,7 @@
     "category": "fashion",
     "sub_category": "Men",
     "type": "T-Shirt",
+    "brand": "US Polo",
     "name": "U.S. Polo Assn Solid Men Polo Neck",
     "price": "1334",
     "image": [
@@ -1174,6 +1182,7 @@
     "category": "fashion",
     "sub_category": "Men",
     "type": "T-Shirt",
+    "brand":"Maniac",
     "name": "Maniac Solid Men's Round Neck",
     "price": "1334",
     "image": [
@@ -1189,6 +1198,7 @@
     "category": "fashion",
     "sub_category": "Men",
     "type": "T-Shirt",
+    "brand": "Maniac",
     "name": "Maniac Checkered Men's Round Neck",
     "price": "424",
     "image": [

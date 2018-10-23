@@ -167,7 +167,7 @@ var removeFromCart = function(index) {
   if (id.length == 1) id = "00" + id;
   else if (id.length == 2) id = "0" + id;
   var cart_i = localStorage.getItem("cart");
-  cItems = JSON.parse(cart_i);
+  var cItems = JSON.parse(cart_i);
   for (var c = 0; c < cItems.length; c++) {
     if (cItems[c].id == id) {
       cItems.splice(c, 1);
@@ -185,7 +185,7 @@ var goBack = function() {
 
 var buyNow = function() {
   alert("Thank you shopping with us!!");
-  localStorage.removeItem('cart');
+  localStorage.removeItem("cart");
   window.location = "./home.html";
 };
 

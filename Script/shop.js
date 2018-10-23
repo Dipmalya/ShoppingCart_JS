@@ -1,5 +1,4 @@
 var allProducts = []; //array stores all the data
-var displayProduct = [];
 var categories = new Set(); //set to store the categories
 var sub_categories = new Map(); //map to map the categories with the sub-categories
 var currentUser = localStorage.getItem("present-user"); //stores the name of the user logged-in
@@ -27,7 +26,7 @@ var bringProducts = function() {
     );
     setCategories(); //calling the method to set the top nav-bar based on the data
     bringFilter(); //calling the method to bring the filter sub-menu based on selected category
-    displayItems(); //calling the method to display the items based on the selected category
+    displayItems(allProducts); //calling the method to display the items based on the selected category
   });
 };
 
@@ -90,9 +89,10 @@ var displayFilter = function() {
     @desc : This function dynamically fetches the data from the json file,
             adds the image and name
 */
-var displayItems = function() {
+var displayItems = function(productData) {
+  var displayProduct = [];
   //displaying only the products based on the category selected
-  for (var p of allProducts) {
+  for (var p of productData) {
     if (p.sub_category == localStorage.getItem("category")) {
       displayProduct.push(p);
     }
@@ -216,15 +216,13 @@ var applyFilter = function(e) {
     if (i[j].checked) {
       //i[j].value == value
       //i[j].name ==  category
-      allProducts = [];
-      for (var a of displayProduct) {
+      var tempData = [];
+      for (var a of allProducts) {
         if (a[i[j].name + ""] == i[j].value) {
-          allProducts.push(a);
+          tempData.push(a);
         }
       }
-      displayProduct = [];
-      console.log(allProducts);
-      displayItems();
+      displayItems(tempData);
     }
   }
 };
