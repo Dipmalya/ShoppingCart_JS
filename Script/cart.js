@@ -119,9 +119,9 @@ var fillCart = function() {
       i +
       "' min='1' value='1' onchange='qtyChange(id)'/></td></tr><tr><th>Total</th><td id='total-item" +
       i +
-      "'></td></tr></table><input type='button' class='btn btn-danger' id='remove' value='Remove from Cart' onclick='removeFromCart(" +
+      "'></td></tr></table><input type='button' class='btn btn-danger' id='remove" +
       count +
-      ")'/>";
+      "' value='Remove from Cart' onclick='removeFromCart()'/>";
 
     for (var product of allProducts) {
       if (product.id == count) {
@@ -162,19 +162,17 @@ var qtyChange = function(e) {
     eval(document.getElementById("total").innerHTML) + eval(change);
 };
 
-var removeFromCart = function(index) {
-  var id = index + "";
-  if (id.length == 1) id = "00" + id;
-  else if (id.length == 2) id = "0" + id;
+var removeFromCart = function() {
+  var index = window.event.target.id.toString();
+  index = index.slice(-3);
   var cart_i = localStorage.getItem("cart");
   var cItems = JSON.parse(cart_i);
   for (var c = 0; c < cItems.length; c++) {
-    if (cItems[c].id == id) {
+    if (cItems[c].id == index) {
       cItems.splice(c, 1);
     }
   }
   var cart = JSON.stringify(cItems);
-  console.log(cart);
   localStorage.setItem("cart", cart);
   window.location = "./cart.html";
 };

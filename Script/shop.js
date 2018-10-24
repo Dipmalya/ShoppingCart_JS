@@ -146,7 +146,7 @@ var logOut = function() {
 
 //The element object defines which values would be in filter for each category
 var elements = {
-  Mobile: ["brand", "price", "ram", "storage", "rear-camera", "front-camera"],
+  Mobile: ["brand", "price", "ram", "storage", "rear_camera", "front_camera"],
   Laptop: ["brand", "price", "ram", "storage", "processor", "os"],
   Camera: ["brand", "price", "type", "pixel"],
   Men: ["brand", "price", "type", "color"],
@@ -211,12 +211,13 @@ var bringFilter = function() {
 
 var applyFilter = function(e) {
   $("#display").empty();
+  var tempData;
   var i = document.getElementsByName(e.id);
   for (var j = 0; j < i.length; j++) {
     if (i[j].checked) {
+      tempData = [];
       //i[j].value == value
       //i[j].name ==  category
-      var tempData = [];
       for (var a of allProducts) {
         if (a[i[j].name + ""] == i[j].value) {
           tempData.push(a);
@@ -225,4 +226,5 @@ var applyFilter = function(e) {
       displayItems(tempData);
     }
   }
+  if (tempData == undefined) displayItems(allProducts);
 };
