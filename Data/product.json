@@ -1495,5 +1495,19 @@
       "https://rukminim1.flixcart.com/image/832/832/jiklh8w0/watch/x/g/4/68007pp01-fastrack-original-imaf6cffzyhxu6ga.jpeg?q=70"
     ],
     "Screen": "Analog"
+  },
+  {
+    "id": "084",
+    "category": "others",
+    "sub_category": "sports",
+    "brand": "Nivia",
+    "sports": "football",
+    "name": "Nivia Black & White Football",
+    "price": "575",
+    "image": [
+      "https://rukminim1.flixcart.com/image/832/832/jjolt3k0/ball/p/x/s/320-350-22-5-black-white-1-fb-278-football-nivia-original-imaff8uxdktcp7vv.jpeg?q=70"
+    ],
+    "Material": "Rubber",
+    "Ideal For": "Men"
   }
 ]
