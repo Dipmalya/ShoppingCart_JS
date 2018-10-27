@@ -12,7 +12,7 @@ var total = 0;
             fetches the name of the user logged-in
 */
 var bringProducts = function() {
-  $.get("../Data/product.json", function(product, status) {
+  $.get("http://localhost:4010/rest/api/get", function(product, status) {
     allProducts = product;
 
     if (localStorage.getItem("present-user") == null) {

@@ -11,7 +11,7 @@ var currentUser = localStorage.getItem("present-user"); //stores the name of the
             fetches the name of the user logged-in
 */
 var bringProducts = function() {
-  $.get("../Data/product.json", function(product, status) {
+  $.get("http://localhost:4010/rest/api/get", function(product, status) {
     allProducts = product;
 
     //checking whether the user is logged in or not.. if not then redirecting him to the first page..

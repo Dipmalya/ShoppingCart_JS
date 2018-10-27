@@ -7,7 +7,7 @@ var validateUser = function() {
   var flag = 0;
   var uname = document.getElementById("userName").value;
   var pwd = document.getElementById("password").value;
-  $.get("../Data/user.json", function(user, status) {
+  $.get("http://localhost:4010/rest/api-user/get", function(user, status) {
     for (var i = 0; i < user.length; i++) {
       if (user[i].email == uname && user[i].password == pwd) {
         flag = 1;
