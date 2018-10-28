@@ -1,0 +1,24 @@
+.table {
+  margin-top: 2%;
+}
+#searchId {
+  margin-top: 2%;
+  width: 25%;
+}
+#add {
+  width: fit-content;
+  background-color: #228b22;
+  color: white;
+  cursor: pointer;
+}
+.content {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.btn {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: fit-content;
+  font-size: 10px;
+  margin-left: 2%;
+}
