@@ -60,26 +60,56 @@ var fillTable = function(products) {
   }
 };
 
-var productArr = [];
-$(document).ready(function() {
-  $("#searchId").keyup(() => {
+// var productArr = [];
+// $(document).ready(function() {
+//   $("#searchId").onkeypress(() => {
+//     if()
+//     var value = document.getElementById("searchId").value;
+//     for (var p of allProducts) {
+//       if (
+//         p.name
+//           .toString()
+//           .toUpperCase()
+//           .indexOf(value.toUpperCase()) !== -1
+//       ) {
+//         productArr.push(p);
+//         console.log(p.id);
+//       }
+//     }
+//     //console.log(productArr);
+//     //fillTable(productArr);
+//   });
+// });
+
+var logOut = function() {
+  window.location = "./index.html";
+};
+
+var searchItem = function(e) {
+  if (e.keyCode == 13) {
+    document.getElementById("tData").innerHTML = "";
     var value = document.getElementById("searchId").value;
+    var productArr = [];
     for (var p of allProducts) {
       if (
         p.name
           .toString()
           .toUpperCase()
+          .indexOf(value.toUpperCase()) !== -1 ||
+        p.brand
+          .toString()
+          .toUpperCase()
+          .indexOf(value.toUpperCase()) !== -1 ||
+        p.sub_category
+          .toString()
+          .toUpperCase()
           .indexOf(value.toUpperCase()) !== -1
       ) {
         productArr.push(p);
-        console.log(p.id);
+        //console.log(p.id);
       }
     }
-    //console.log(productArr);
-    //fillTable(productArr);
-  });
-});
-
-var logOut = function() {
-  window.location = "./index.html";
+    console.log(productArr);
+    fillTable(productArr);
+  }
 };
