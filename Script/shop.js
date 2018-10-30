@@ -146,14 +146,14 @@ var logOut = function() {
 
 //The element object defines which values would be in filter for each category
 var elements = {
-  Mobile: ["brand", "price", "ram", "storage", "rear_camera", "front_camera"],
-  Laptop: ["brand", "price", "ram", "storage", "processor", "os"],
-  Camera: ["brand", "price", "type", "pixel"],
-  Men: ["brand", "price", "type", "color"],
-  Women: ["brand", "price", "type", "color"],
-  furniture: ["brand", "price", "type"],
-  sports: ["brand", "sports", "price", "Ideal For"],
-  Watch: ["brand", "type", "price", "Screen"]
+  Mobile: ["brand", "ram", "storage", "rear_camera", "front_camera"],
+  Laptop: ["brand", "ram", "storage", "processor", "os"],
+  Camera: ["brand", "type", "pixel"],
+  Men: ["brand", "type", "color"],
+  Women: ["brand", "type", "color"],
+  furniture: ["brand", "type"],
+  sports: ["brand", "sports", "Ideal For"],
+  Watch: ["brand", "type", "Screen"]
 };
 
 var uniqueBrands = new Set(); //This set is used for storing unique filter values for each category
@@ -213,11 +213,13 @@ var applyFilter = function(e) {
   $("#display").empty();
   var tempData;
   var i = document.getElementsByName(e.id);
+  console.log(i);
   for (var j = 0; j < i.length; j++) {
     if (i[j].checked) {
       tempData = [];
       //i[j].value == value
       //i[j].name ==  category
+      //console.log(i[j]);
       for (var a of allProducts) {
         if (a[i[j].name + ""] == i[j].value) {
           tempData.push(a);
